@@ -8,16 +8,15 @@ import csv
 import time
 import StringIO
 import unicodedata
+import re
+import gcom
+import datetime
+import XMLUtil
+import pyUtil
 
 from lxml import html
 from lxml import etree
 
-parser = argparse.ArgumentParser(description="Tool for auto-generating packages for breakout boards")
-parser.add_argument("-db", required=True, type=str, nargs=1, dest='dbFile', help="Break out board database file")
-parser.add_argument("--productid", required=False, type=str, nargs=1, dest='id', help="filter on a single product id")
-parser.add_argument("--force", required=False, dest='rescrape', action='store_true', help="Overwrite existing package")
-
-args = parser.parse_args()
 
 class ScrapeError(Exception):
     def __init__(self, s):
@@ -28,16 +27,15 @@ class ScrapeError(Exception):
 def scrapeAdaFruit(productID):
     t = pipes.Template()
     print "Scraping Adafruit product "  + str(productID),
-    t.prepend("wget http://adafru.it/"+ str(productID) + " -O - 2>/dev/null", ".-")
+    url = "http://adafru.it/"+ str(productID)
+    t.prepend("wget " +url + " -O - 2>/dev/null", ".-")
     f = t.open("", "r")
         
     parser = etree.HTMLParser(recover=True)
     tree = etree.parse(f, parser)
-    for i in parser.error_log:
-        print i
+#    for i in parser.error_log:
+#        print i
 
-
-    #tree.write(sys.stdout)
     name = None
     price = None
     if tree.getroot() is None:
@@ -52,7 +50,10 @@ def scrapeAdaFruit(productID):
         raise ScrapeError("Scrape failed for Adafruit " + str(productID))
     else:
         print name.text.strip() + " " +  price.text.strip()
-        return [productID,name.text.strip(), price.text.strip()]
+        return {"id": productID,
+                "name": name.text.strip(), 
+                "price": price.text.strip(),
+                "url" : url}
 
 def scrapeSparkFun(productID):
     t = pipes.Template()
@@ -101,29 +102,15 @@ def scrapeSparkFun(productID):
         print name + " " +  price
         return [productID,name, price]
 
-def GetCSVHeader(fn):
-    f = open(fn, "rb")
-    r = csv.reader(f)
-    x = None
-    for t in r:
-        x = t
-        break;
-    f.close()
-    print x
-    return x
 
-#print scrapeAdaFruit(1856)
-#sys.exit(0)
-dbf = open(args.dbFile[0], "rb")
-db = csv.DictReader(dbf)
+parser = argparse.ArgumentParser(description="Tool for auto-generating packages for breakout boards")
+parser.add_argument("-m", required=True, type=str, nargs=1, dest='manufacturer', help="manufacturer")
+parser.add_argument("--productid", required=False, type=str, nargs=1, dest='id', help="filter on a single product id")
+parser.add_argument("--keyname", required=True, type=str, nargs=1, help="keyname for this component")
+parser.add_argument("-o", required=False, type=str, nargs=1, help="output file. default == keyname")
 
-header = GetCSVHeader(args.dbFile[0])
-output = StringIO.StringIO()
-out = csv.DictWriter(output, header)
-t = {}
-for i in header:
-    t[i] = i
-out.writerow(t)
+
+args = parser.parse_args()
 
 scrapers = {"ADAFRUIT": scrapeAdaFruit,
             "SPARKFUN": scrapeSparkFun}
@@ -131,46 +118,61 @@ scrapers = {"ADAFRUIT": scrapeAdaFruit,
 URLPrefix = {"ADAFRUIT": "http://adafru.it/",
             "SPARKFUN": "https://www.sparkfun.com/products/"}
 
-for row in db:
-    if row["Name"].strip() == "" or row["Price"].strip() == "" or args.rescrape:
-        if row["Supplier"].upper() in scrapers:
-            scraper = scrapers[row["Supplier"].upper()]
+normalizedManufacturers = {"ADAFRUIT": "Adafruit",
+                          "SPARKFUN": "Sparkfun"}
 
-            if row["PartNumber"] == "":
-                out.writerow(row)
-                continue;
+url = URLPrefix[args.manufacturer[0].upper()] + "/" + str(args.id)
+scraper = scrapers[args.manufacturer[0].upper()]
 
-            for p in row["PartNumber"].split(","):
-                if p == "":
-                    continue
-                if args.id is not None and args.id[0] != p:
-#                    print p  + " " + args.id + " " + repr(row)
-                    out.writerow(row)
-                    continue;
+try:
+    r = scraper(args.id[0])
+    print r
+except ScrapeError as e:
+    print str(e) + ", retrying"
+    time.sleep(5)
+    try:
+        r = scraper(args.id[0])
+        print r
+    except:
+        print str(e) + ", giving up"
+        sys.exit(1)
 
-                row["PartNumber"] = p
-                try:
-                    r = scraper(p)
-                    row["PartNumber"] = r[0]
-                    r[1] = unicodedata.normalize("NFKD", unicode(r[1])).encode('ascii','ignore')
-                    row["Name"] = r[1]
-                    row["Price"] = r[2]
-                    row["DocURL"] = URLPrefix[row["Supplier"].upper()] + r[0]
-                except ScrapeError as e:
-                    print str(e) + ", retrying"
-                    time.sleep(5)
-                    try:
-                        r = scraper(p)
-                        row["Name"] = r[0]
-                        row["Price"] = r[1]
-                    except:
-                        print str(e) + ", giving up"
+default="""
+<component>
+  <name></name>
+  <QA tested="false"/>
+  <keyname></keyname>
+  <variant>
+    <supplier/>
+    <documentationURL></documentationURL>
+    <longname></longname>
+  </variant>
+</component>
+"""
 
-                out.writerow(row)
-        else:
-            out.writerow(row)
-    else:
-        out.writerow(row)
+et = ET.fromstring(default)
+et.find("keyname").text =args.keyname[0]
+et.find("name").text =r["name"]
+updates={"name":normalizedManufacturers[args.manufacturer[0].upper()], 
+          "price":r["price"].replace("$",""),
+         "updated": str(datetime.date.today()),
+         "part-number":args.id[0]}
 
-dbf.close()
-open(args.dbFile[0], "wb").write(output.getvalue())
+et.find("variant/documentationURL").text =r["url"]
+et.find("variant/longname").text = r["name"]
+
+
+for i in updates:
+    et.find("variant/supplier").set(i,updates[i])    
+
+e = ET.ElementTree()
+e._setroot(et)
+
+
+if args.o is not None:
+    fname = args.o[0]
+else:
+    pyUtil.docmd("mkdir -p " + args.keyname[0])
+    fname = args.keyname[0] + "/" + args.keyname[0] + ".gcom"
+
+XMLUtil.formatAndWrite(e,fname, xml_declaration=True)
