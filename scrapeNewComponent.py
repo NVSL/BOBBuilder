@@ -105,12 +105,11 @@ def scrapeSparkFun(productID):
         return [productID,name, price]
 
 
-parser = argparse.ArgumentParser(description="Tool for auto-generating packages for breakout boards")
-parser.add_argument("-m", required=True, type=str, nargs=1, dest='manufacturer', help="manufacturer")
-parser.add_argument("--productid", required=False, type=str, nargs=1, dest='id', help="filter on a single product id")
+parser = argparse.ArgumentParser(description="Tool for auto-generating packages for breakout boards.  Give it a product id and a vendor, and a keyname for the component, and it will, by default, create a direcotry for it and put the .gcom file there with some fields filled in.")
+parser.add_argument("-m", required=True, type=str, nargs=1, dest='manufacturer', help="manufacturer (currently adafruit or sparkfun)")
+parser.add_argument("--productid", required=False, type=str, nargs=1, dest='id', help="product id")
 parser.add_argument("--keyname", required=True, type=str, nargs=1, help="keyname for this component")
 parser.add_argument("-o", required=False, type=str, nargs=1, help="output file. default == keyname")
-
 
 args = parser.parse_args()
 
