@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<component>
+  <name>Analog/Digital MUX Breakout</name>
+  <QA tested="false" completed="false"/>
+  <keyname>Analog_Digital_MUX_Breakout</keyname>
+  <bobspec device-name="ANALOG_DIGITAL_MUX_BREAKOUT">
+    <downloadURL protocol="svn">https://github.com/sparkfun/Analog_Digital_MUX_Breakout</downloadURL>
+  </bobspec>
+  <variant>
+    <supplier name="Sparkfun" price="4.95" updated="2014-08-21" part-number="9056"/>
+    <documentationURL>https://www.sparkfun.com/products/9056</documentationURL>
+    <longname>Analog/Digital MUX Breakout</longname>
+    <eagledevice name="ANALOG_DIGITAL_MUX_BREAKOUT"/>
+  </variant>
+</component>

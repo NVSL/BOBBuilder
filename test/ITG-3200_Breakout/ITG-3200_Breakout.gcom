@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<component>
+  <name>Triple-Axis Digital-Output Gyro Breakout - ITG-3200</name>
+  <QA tested="false" completed="false"/>
+  <keyname>ITG-3200_Breakout</keyname>
+  <bobspec device-name="ITG-3200_BREAKOUT">
+    <downloadURL protocol="svn">https://github.com/sparkfun/ITG-3200_Breakout</downloadURL>
+  </bobspec>
+  <variant>
+    <supplier name="Sparkfun" price="24.95" updated="2014-08-21" part-number="11977"/>
+    <documentationURL>https://www.sparkfun.com/products/11977</documentationURL>
+    <longname>Triple-Axis Digital-Output Gyro Breakout - ITG-3200</longname>
+    <eagledevice name="ITG-3200_BREAKOUT"/>
+  </variant>
+</component>

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<component>
+  <name>Bluetooth Modem - BlueSMiRF Silver</name>
+  <QA tested="false" completed="false"/>
+  <keyname>BlueSMiRF</keyname>
+  <bobspec device-name="BLUESMIRF">
+    <downloadURL protocol="svn">https://github.com/sparkfun/BlueSMiRF</downloadURL>
+  </bobspec>
+  <variant>
+    <supplier name="Sparkfun" price="39.95" updated="2014-08-21" part-number="12577"/>
+    <documentationURL>https://www.sparkfun.com/products/12577</documentationURL>
+    <longname>Bluetooth Modem - BlueSMiRF Silver</longname>
+    <eagledevice name="BLUESMIRF"/>
+  </variant>
+  <variant>
+    <supplier name="Sparkfun" price="64.95" updated="2014-08-21" part-number="12582"/>
+    <documentationURL>https://www.sparkfun.com/products/12582</documentationURL>
+    <longname>Bluetooth Modem - BlueSMiRF Gold</longname>
+    <eagledevice name="BLUESMIRF"/>
+  </variant>
+  <variant>
+    <supplier name="Sparkfun" price="44.95" updated="2014-08-21" part-number="10938"/>
+    <documentationURL>https://www.sparkfun.com/products/10938</documentationURL>
+    <longname>Bluetooth Modem - BlueSMiRF HID</longname>
+    <eagledevice name="BLUESMIRF"/>
+  </variant>
+  <variant>
+    <supplier name="Sparkfun" price="64.95" updated="2014-08-21" part-number="12582"/>
+    <documentationURL>https://www.sparkfun.com/products/12582</documentationURL>
+    <longname>Bluetooth Modem - BlueSMiRF Gold</longname>
+    <eagledevice name="BLUESMIRF"/>
+  </variant>
+</component>

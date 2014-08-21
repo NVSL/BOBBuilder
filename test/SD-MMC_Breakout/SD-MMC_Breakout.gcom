@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<component>
+  <name>SD-MMC_Breakout</name>
+  <QA tested="false" completed="false"/>
+  <keyname>SD-MMC_Breakout</keyname>
+  <bobspec device-name="SD-MMC_BREAKOUT">
+    <downloadURL protocol="svn">https://github.com/sparkfun/SD-MMC_Breakout</downloadURL>
+  </bobspec>
+</component>

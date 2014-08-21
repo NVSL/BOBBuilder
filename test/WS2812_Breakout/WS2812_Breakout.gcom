@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<component>
+  <name>WS2812 RGB LED Breakout</name>
+  <QA tested="false" completed="false"/>
+  <keyname>WS2812_Breakout</keyname>
+  <bobspec device-name="WS2812_BREAKOUT">
+    <downloadURL protocol="svn">https://github.com/sparkfun/WS2812_Breakout</downloadURL>
+  </bobspec>
+  <variant>
+    <supplier name="Sparkfun" price="2.95" updated="2014-08-21" part-number="11820"/>
+    <documentationURL>https://www.sparkfun.com/products/11820</documentationURL>
+    <longname>WS2812 RGB LED Breakout</longname>
+    <eagledevice name="WS2812_BREAKOUT"/>
+  </variant>
+</component>

@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<component>
+  <name>Adafruit Mini 8x8 LED Matrix w/I2C Backpack - Yellow</name>
+  <QA tested="false"/>
+  <keyname>Adafruit-min8x8-backpack</keyname>
+  <bobspec device-name="ADAFRUIT-MIN8X8-BACKPACK">
+    <connector name="CN1"/>
+    <downloadURL protocol="svn">https://github.com/adafruit/Adafruit-LED-Backpacks</downloadURL>
+    <brdfile upside-down="TRUE">ext/Adafruit-LED-Backpacks/trunk/Adafruit min8x8 backpack.brd</brdfile>
+    <schfile>ext/Adafruit-LED-Backpacks/trunk/Adafruit min8x8 backpack.sch</schfile>
+  </bobspec>
+  <variant>
+    <supplier name="Adafruit" price="9.95" updated="2014-08-21" part-number="871"/>
+    <documentationURL>http://adafru.it/871</documentationURL>
+    <longname>Adafruit Mini 8x8 LED Matrix w/I2C Backpack - Yellow</longname>
+    <eagledevice name="ADAFRUIT-MIN8X8-BACKPACK"/>
+  </variant>
+  <variant>
+    <supplier name="Adafruit" price="9.95" updated="2014-08-21" part-number="872"/>
+    <documentationURL>http://adafru.it/872</documentationURL>
+    <longname>Adafruit Mini 0.8" 8x8 LED Matrix w/I2C Backpack - Yellow-Green</longname>
+    <eagledevice name="ADAFRUIT-MIN8X8-BACKPACK"/>
+  </variant>
+  <variant>
+    <supplier name="Adafruit" price="9.95" updated="2014-08-21" part-number="870"/>
+    <documentationURL>http://adafru.it/870</documentationURL>
+    <longname>Adafruit Mini 8x8 LED Matrix w/I2C Backpack - Red</longname>
+    <eagledevice name="ADAFRUIT-MIN8X8-BACKPACK"/>
+  </variant>
+  <variant>
+    <supplier name="Adafruit" price="13.50" updated="2014-08-21" part-number="1080"/>
+    <documentationURL>http://adafru.it/1080</documentationURL>
+    <longname>Adafruit Mini 8x8 LED Matrix w/I2C Backpack - Ultra Bright White</longname>
+    <eagledevice name="ADAFRUIT-MIN8X8-BACKPACK"/>
+  </variant>
+  <variant>
+    <supplier name="Adafruit" price="10.95" updated="2014-08-21" part-number="1633"/>
+    <documentationURL>http://adafru.it/1633</documentationURL>
+    <longname>Adafruit Mini 0.8" 8x8 LED Matrix w/I2C Backpack - Pure Green</longname>
+    <eagledevice name="ADAFRUIT-MIN8X8-BACKPACK"/>
+  </variant>
+</component>

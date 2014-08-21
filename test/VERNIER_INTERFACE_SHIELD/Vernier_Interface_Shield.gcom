@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<component>
-  <name>Vernier_Interface_Shield</name>
-  <QA tested="false" completed="false"/>
-  <bobspec device-name="VERNIER_INTERFACE_SHIELD">
-    <downloadURL protocol="svn">https://github.com/sparkfun/Vernier_Interface_Shield</downloadURL>
-  </bobspec>
-</component>

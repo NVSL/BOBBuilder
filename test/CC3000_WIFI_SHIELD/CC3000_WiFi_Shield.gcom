@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<component>
-  <name>CC3000_WiFi_Shield</name>
-  <QA tested="false" completed="false"/>
-  <bobspec device-name="CC3000_WIFI_SHIELD">
-    <downloadURL protocol="svn">https://github.com/sparkfun/CC3000_WiFi_Shield</downloadURL>
-  </bobspec>
-</component>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<component>
+  <name>Adafruit Bicolor LED Square Pixel Matrix with I2C Backpack</name>
+  <QA tested="false"/>
+  <keyname>Adafruit-bicolor-8x8</keyname>
+  <bobspec device-name="ADAFRUIT-BICOLOR-8X8">
+    <connector name="CN1"/>
+    <downloadURL protocol="svn">https://github.com/adafruit/Adafruit-LED-Backpacks</downloadURL>
+    <brdfile upside-down="TRUE">ext/Adafruit-LED-Backpacks/trunk/Adafruit bicolor 8x8.brd</brdfile>
+    <schfile>ext/Adafruit-LED-Backpacks/trunk/Adafruit bicolor 8x8.sch</schfile>
+  </bobspec>
+  <variant>
+    <supplier name="Adafruit" price="15.95" updated="2014-08-21" part-number="902"/>
+    <documentationURL>http://adafru.it/902</documentationURL>
+    <longname>Adafruit Bicolor LED Square Pixel Matrix with I2C Backpack</longname>
+    <eagledevice name="ADAFRUIT-BICOLOR-8X8"/>
+  </variant>
+</component>

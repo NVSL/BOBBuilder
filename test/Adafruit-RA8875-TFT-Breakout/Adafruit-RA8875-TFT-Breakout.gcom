@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<component>
+  <name>RA8875 Driver Board for 40-pin TFT Touch Displays - 800x480 Max</name>
+  <QA tested="false" completed="false"/>
+  <keyname>Adafruit-RA8875-TFT-Breakout</keyname>
+  <bobspec device-name="ADAFRUIT-RA8875-TFT-BREAKOUT">
+    <downloadURL protocol="svn">https://github.com/adafruit/Adafruit-RA8875-Breakout-Board-PCB</downloadURL>
+    <brdfile>ext/Adafruit-RA8875-Breakout-Board-PCB/trunk/Adafruit RA8875 TFT Breakout.brd</brdfile>
+    <schfile>ext/Adafruit-RA8875-Breakout-Board-PCB/trunk/Adafruit RA8875 TFT Breakout.sch</schfile>
+  </bobspec>
+  <variant>
+    <supplier name="Adafruit" price="34.95" updated="2014-08-21" part-number="1590"/>
+    <documentationURL>http://adafru.it/1590</documentationURL>
+    <longname>RA8875 Driver Board for 40-pin TFT Touch Displays - 800x480 Max</longname>
+    <eagledevice name="ADAFRUIT-RA8875-TFT-BREAKOUT"/>
+  </variant>
+</component>

@@ -2,6 +2,7 @@
 <component>
   <name>NCP1402 - 3.3V Step-Up Breakout</name>
   <QA tested="false" completed="false"/>
+  <keyname>NCP1402-3.3V</keyname>
   <bobspec device-name="NCP1402-3.3V">
     <downloadURL protocol="svn">https://github.com/sparkfun/NCP1402-3.3V</downloadURL>
   </bobspec>

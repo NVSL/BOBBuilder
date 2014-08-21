@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<component>
+  <name>Transceiver nRF2401A with Chip Antenna</name>
+  <QA tested="false" completed="false"/>
+  <keyname>nRF2401A_Transceiver-Chip_Antenna</keyname>
+  <bobspec device-name="NRF2401A_TRANSCEIVER-CHIP_ANTENNA">
+    <downloadURL protocol="svn">https://github.com/sparkfun/nRF2401A_Transceiver-Chip_Antenna</downloadURL>
+  </bobspec>
+  <variant>
+    <supplier name="Sparkfun" price="14.95" updated="2014-08-21" part-number="152"/>
+    <documentationURL>https://www.sparkfun.com/products/152</documentationURL>
+    <longname>Transceiver nRF2401A with Chip Antenna</longname>
+    <eagledevice name="NRF2401A_TRANSCEIVER-CHIP_ANTENNA"/>
+  </variant>
+</component>

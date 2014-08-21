@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<component>
+  <name>RFID_Evaluation_Shield</name>
+  <QA tested="false" completed="false"/>
+  <keyname>RFID_Evaluation_Shield</keyname>
+  <bobspec device-name="RFID_EVALUATION_SHIELD">
+    <downloadURL protocol="svn">https://github.com/sparkfun/RFID_Evaluation_Shield</downloadURL>
+  </bobspec>
+</component>

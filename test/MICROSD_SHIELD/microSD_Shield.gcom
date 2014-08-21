@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<component>
-  <name>microSD_Shield</name>
-  <QA tested="false" completed="false"/>
-  <bobspec device-name="MICROSD_SHIELD">
-    <downloadURL protocol="svn">https://github.com/sparkfun/microSD_Shield</downloadURL>
-  </bobspec>
-</component>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<component>
+  <name>WiFly-Shield</name>
+  <QA tested="false" completed="false"/>
+  <keyname>WiFly-Shield</keyname>
+  <bobspec device-name="WIFLY-SHIELD">
+    <downloadURL protocol="svn">https://github.com/sparkfun/WiFly-Shield</downloadURL>
+  </bobspec>
+</component>

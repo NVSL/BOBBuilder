@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<component>
+  <name>Adafruit PN532 NFC/RFID Controller Shield for Arduino + Extras</name>
+  <QA tested="false" completed="false"/>
+  <keyname>Adafruit_PN532_Shield_v1.0</keyname>
+  <bobspec device-name="ADAFRUIT_PN532_SHIELD_V1.0">
+    <downloadURL protocol="svn">https://github.com/adafruit/Adafruit-PN532-RFID-NFC-Shield</downloadURL>
+    <brdfile>ext/Adafruit-PN532-RFID-NFC-Shield/trunk/Adafruit_PN532_Shield_v1.0.brd</brdfile>
+    <schfile>ext/Adafruit-PN532-RFID-NFC-Shield/trunk/Adafruit_PN532_Shield_v1.0.sch</schfile>
+  </bobspec>
+  <variant>
+    <supplier name="Adafruit" price="39.95" updated="2014-08-21" part-number="789"/>
+    <documentationURL>http://adafru.it/789</documentationURL>
+    <longname>Adafruit PN532 NFC/RFID Controller Shield for Arduino + Extras</longname>
+    <eagledevice name="ADAFRUIT_PN532_SHIELD_V1.0"/>
+  </variant>
+</component>

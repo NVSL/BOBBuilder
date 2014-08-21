@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<component>
+  <name>VS1053 Codec + MicroSD Breakout - MP3/WAV/MIDI/OGG Play + Record</name>
+  <QA tested="false" completed="false"/>
+  <keyname>Adafruit-VS1053-Breakout</keyname>
+  <bobspec device-name="ADAFRUIT-VS1053-BREAKOUT">
+    <downloadURL protocol="svn">https://github.com/adafruit/Adafruit-VS1053-Breakout-PCB</downloadURL>
+    <brdfile>ext/Adafruit-VS1053-Breakout-PCB/trunk/Adafruit VS1053 Breakout.brd</brdfile>
+    <schfile>ext/Adafruit-VS1053-Breakout-PCB/trunk/Adafruit VS1053 Breakout.sch</schfile>
+  </bobspec>
+  <variant>
+    <supplier name="Adafruit" price="24.95" updated="2014-08-21" part-number="1381"/>
+    <documentationURL>http://adafru.it/1381</documentationURL>
+    <longname>VS1053 Codec + MicroSD Breakout - MP3/WAV/MIDI/OGG Play + Record</longname>
+    <eagledevice name="ADAFRUIT-VS1053-BREAKOUT"/>
+  </variant>
+</component>

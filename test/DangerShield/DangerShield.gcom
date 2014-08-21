@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<component>
+  <name>Danger Shield</name>
+  <QA tested="false" completed="false"/>
+  <keyname>DangerShield</keyname>
+  <bobspec device-name="DANGERSHIELD">
+    <downloadURL protocol="svn">https://github.com/sparkfun/DangerShield</downloadURL>
+  </bobspec>
+  <variant>
+    <supplier name="Sparkfun" price="29.95" updated="2014-08-21" part-number="11649"/>
+    <documentationURL>https://www.sparkfun.com/products/11649</documentationURL>
+    <longname>Danger Shield</longname>
+    <eagledevice name="DANGERSHIELD"/>
+  </variant>
+</component>

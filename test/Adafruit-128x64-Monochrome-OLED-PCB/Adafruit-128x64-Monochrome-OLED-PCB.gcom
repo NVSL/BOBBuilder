@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<component>
+  <name>Monochrome 0.96" 128x64 OLED graphic display</name>
+  <QA tested="false" completed="false"/>
+  <keyname>Adafruit-128x64-Monochrome-OLED-PCB</keyname>
+  <bobspec device-name="ADAFRUIT-128X64-MONOCHROME-OLED-PCB">
+    <downloadURL protocol="svn">https://github.com/adafruit/Adafruit-128x64-Monochrome-OLED-PCB</downloadURL>
+  </bobspec>
+  <variant>
+    <supplier name="Adafruit" price="19.50" updated="2014-08-21" part-number="326"/>
+    <documentationURL>http://adafru.it/326</documentationURL>
+    <longname>Monochrome 0.96" 128x64 OLED graphic display</longname>
+    <eagledevice name="ADAFRUIT-128X64-MONOCHROME-OLED-PCB"/>
+  </variant>
+</component>

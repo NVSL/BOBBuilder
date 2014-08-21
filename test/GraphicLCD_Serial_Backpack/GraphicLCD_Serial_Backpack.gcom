@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<component>
+  <name>Graphic LCD Serial Backpack</name>
+  <QA tested="false" completed="false"/>
+  <keyname>GraphicLCD_Serial_Backpack</keyname>
+  <bobspec device-name="GRAPHICLCD_SERIAL_BACKPACK">
+    <downloadURL protocol="svn">https://github.com/sparkfun/GraphicLCD_Serial_Backpack</downloadURL>
+  </bobspec>
+  <variant>
+    <supplier name="Sparkfun" price="19.95" updated="2014-08-21" part-number="9352"/>
+    <documentationURL>https://www.sparkfun.com/products/9352</documentationURL>
+    <longname>Graphic LCD Serial Backpack</longname>
+    <eagledevice name="GRAPHICLCD_SERIAL_BACKPACK"/>
+  </variant>
+  <variant>
+    <supplier name="Sparkfun" price="49.95" updated="2014-08-21" part-number="8799"/>
+    <documentationURL>https://www.sparkfun.com/products/8799</documentationURL>
+    <longname>Graphic LCD 160x128 Huge</longname>
+    <eagledevice name="GRAPHICLCD_SERIAL_BACKPACK"/>
+  </variant>
+  <variant>
+    <supplier name="Sparkfun" price="19.95" updated="2014-08-21" part-number="710"/>
+    <documentationURL>https://www.sparkfun.com/products/710</documentationURL>
+    <longname>Graphic LCD 128x64 STN LED Backlight</longname>
+    <eagledevice name="GRAPHICLCD_SERIAL_BACKPACK"/>
+  </variant>
+  <variant>
+    <supplier name="Sparkfun" price="19.95" updated="2014-08-21" part-number="9352"/>
+    <documentationURL>https://www.sparkfun.com/products/9352</documentationURL>
+    <longname>Graphic LCD Serial Backpack</longname>
+    <eagledevice name="GRAPHICLCD_SERIAL_BACKPACK"/>
+  </variant>
+  <variant>
+    <supplier name="Sparkfun" price="36.95" updated="2014-08-21" part-number="9351"/>
+    <documentationURL>https://www.sparkfun.com/products/9351</documentationURL>
+    <longname>Serial Graphic LCD 128x64</longname>
+    <eagledevice name="GRAPHICLCD_SERIAL_BACKPACK"/>
+  </variant>
+  <variant>
+    <supplier name="Sparkfun" price="69.95" updated="2014-08-21" part-number="8884"/>
+    <documentationURL>https://www.sparkfun.com/products/8884</documentationURL>
+    <longname>Serial Graphic LCD 160x128</longname>
+    <eagledevice name="GRAPHICLCD_SERIAL_BACKPACK"/>
+  </variant>
+</component>

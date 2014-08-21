@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<component>
+  <name>Touch_Shield</name>
+  <QA tested="false" completed="false"/>
+  <keyname>Touch_Shield</keyname>
+  <bobspec device-name="TOUCH_SHIELD">
+    <downloadURL protocol="svn">https://github.com/sparkfun/Touch_Shield</downloadURL>
+  </bobspec>
+  <variant>
+    <supplier name="Sparkfun" price="" updated="2014-08-21" part-number="12013"/>
+    <documentationURL>https://www.sparkfun.com/products/12013</documentationURL>
+    <longname>Touch_Shield</longname>
+    <eagledevice name="TOUCH_SHIELD"/>
+  </variant>
+  <variant>
+    <supplier name="Sparkfun" price="14.95" updated="2014-08-21" part-number="10508"/>
+    <documentationURL>https://www.sparkfun.com/products/10508</documentationURL>
+    <longname>Touch Shield</longname>
+    <eagledevice name="TOUCH_SHIELD"/>
+  </variant>
+  <variant>
+    <supplier name="Sparkfun" price="15.95" updated="2014-08-21" part-number="10774"/>
+    <documentationURL>https://www.sparkfun.com/products/10774</documentationURL>
+    <longname>Touch Sense Shield Retail</longname>
+    <eagledevice name="TOUCH_SHIELD"/>
+  </variant>
+  <variant>
+    <supplier name="Sparkfun" price="14.95" updated="2014-08-21" part-number="10508"/>
+    <documentationURL>https://www.sparkfun.com/products/10508</documentationURL>
+    <longname>Touch Shield</longname>
+    <eagledevice name="TOUCH_SHIELD"/>
+  </variant>
+</component>

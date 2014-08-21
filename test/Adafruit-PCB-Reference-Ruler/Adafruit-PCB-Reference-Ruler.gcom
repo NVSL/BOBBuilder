@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<component>
+  <name>Adafruit PCB Ruler - 6"</name>
+  <QA tested="false" completed="false"/>
+  <keyname>Adafruit-PCB-Reference-Ruler</keyname>
+  <bobspec device-name="ADAFRUIT-PCB-REFERENCE-RULER">
+    <downloadURL protocol="svn">https://github.com/adafruit/Adafruit-PCB-Ruler</downloadURL>
+    <brdfile>ext/Adafruit-PCB-Ruler/trunk/Adafruit PCB Reference Ruler.brd</brdfile>
+    <schfile>ext/Adafruit-PCB-Ruler/trunk/Adafruit PCB Reference Ruler.sch</schfile>
+  </bobspec>
+  <variant>
+    <supplier name="Adafruit" price="4.95" updated="2014-08-21" part-number="1554"/>
+    <documentationURL>http://adafru.it/1554</documentationURL>
+    <longname>Adafruit PCB Ruler - 6"</longname>
+    <eagledevice name="ADAFRUIT-PCB-REFERENCE-RULER"/>
+  </variant>
+</component>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<component>
+  <name>ADXL345 - Triple-Axis Accelerometer (+-2g/4g/8g/16g) w/ I2C/SPI</name>
+  <QA tested="false" completed="false"/>
+  <keyname>Adafruit_ADXL345</keyname>
+  <bobspec device-name="ADAFRUIT_ADXL345">
+    <downloadURL protocol="svn">https://github.com/adafruit/Adafruit_ADXL345_PCB</downloadURL>
+    <brdfile>ext/Adafruit_ADXL345_PCB/trunk/Adafruit_ADXL345.brd</brdfile>
+    <schfile>ext/Adafruit_ADXL345_PCB/trunk/Adafruit_ADXL345.sch</schfile>
+  </bobspec>
+  <variant>
+    <supplier name="Adafruit" price="17.50" updated="2014-08-21" part-number="1231"/>
+    <documentationURL>http://adafru.it/1231</documentationURL>
+    <longname>ADXL345 - Triple-Axis Accelerometer (+-2g/4g/8g/16g) w/ I2C/SPI</longname>
+    <eagledevice name="ADAFRUIT_ADXL345"/>
+  </variant>
+</component>

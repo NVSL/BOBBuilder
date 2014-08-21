@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<component>
+  <name>Arduino Micro with Headers - 5V 16MHz - (ATmega32u4 - assembled)</name>
+  <QA tested="false"/>
+  <keyname>Arduino_Micro_Rev03j</keyname>
+  <bobspec device-name="ARDUINO_MICRO_REV03J">
+    <connector name="J5"/>
+    <connector name="J6"/>
+    <downloadURL protocol="zip">http://arduino.cc/en/uploads/Main/arduino-micro-reference-design.zip</downloadURL>
+    <brdfile>ext/Arduino_Micro_with_Headers_5V_16MHz_ATmega32u4_assembled/Arduino_Micro_Rev03j.brd</brdfile>
+    <schfile>ext/Arduino_Micro_with_Headers_5V_16MHz_ATmega32u4_assembled/Arduino_Micro_Rev03j.sch</schfile>
+  </bobspec>
+  <variant>
+    <supplier name="Adafruit" price="24.95" updated="2014-08-21" part-number="1086"/>
+    <documentationURL>http://adafru.it/1086</documentationURL>
+    <longname>Arduino Micro with Headers - 5V 16MHz - (ATmega32u4 - assembled)</longname>
+    <eagledevice name="ARDUINO_MICRO_REV03J"/>
+  </variant>
+  <variant>
+    <supplier name="Adafruit" price="22.95" updated="2014-08-21" part-number="1315"/>
+    <documentationURL>http://adafru.it/1315</documentationURL>
+    <longname>Arduino Micro without Headers - 5V 16MHz ATmega32u4 - Assembled</longname>
+    <eagledevice name="ARDUINO_MICRO_REV03J"/>
+  </variant>
+</component>

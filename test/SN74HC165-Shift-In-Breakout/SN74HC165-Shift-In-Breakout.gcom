@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<component>
+  <name>SN74HC165 Shift-In Breakout</name>
+  <QA tested="false" completed="false"/>
+  <keyname>SN74HC165-Shift-In-Breakout</keyname>
+  <bobspec device-name="SN74HC165-SHIFT-IN-BREAKOUT">
+    <downloadURL protocol="svn">https://github.com/sparkfun/SN74HC165-Shift-In-Breakout</downloadURL>
+  </bobspec>
+  <variant>
+    <supplier name="Sparkfun" price="3.95" updated="2014-08-21" part-number="11733"/>
+    <documentationURL>https://www.sparkfun.com/products/11733</documentationURL>
+    <longname>SN74HC165 Shift-In Breakout</longname>
+    <eagledevice name="SN74HC165-SHIFT-IN-BREAKOUT"/>
+  </variant>
+</component>

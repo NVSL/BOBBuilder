@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<component>
+  <name>Pressure Sensor - MS5803-14BA Breakout</name>
+  <QA tested="false"/>
+  <keyname>MS5803-14BA_Breakout</keyname>
+  <bobspec device-name="MS5803-14BA_BREAKOUT">
+    <connector name="JP1"/>
+    <downloadURL protocol="svn">https://github.com/sparkfun/MS5803-14BA_Breakout</downloadURL>
+    <brdfile>ext/MS5803-14BA_Breakout/trunk/Hardware/MS5803-14BA_Breakout.brd</brdfile>
+    <schfile>ext/MS5803-14BA_Breakout/trunk/Hardware/MS5803-14BA_Breakout.sch</schfile>
+  </bobspec>
+  <variant>
+    <supplier name="Sparkfun" price="59.95" updated="2014-08-21" part-number="12909"/>
+    <documentationURL>https://www.sparkfun.com/products/12909</documentationURL>
+    <longname>Pressure Sensor - MS5803-14BA Breakout</longname>
+    <eagledevice name="MS5803-14BA_BREAKOUT"/>
+  </variant>
+</component>

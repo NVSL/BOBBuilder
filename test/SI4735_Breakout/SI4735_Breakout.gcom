@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<component>
+  <name>SI4735_Breakout</name>
+  <QA tested="false" completed="false"/>
+  <keyname>SI4735_Breakout</keyname>
+  <bobspec device-name="SI4735_BREAKOUT">
+    <downloadURL protocol="svn">https://github.com/sparkfun/SI4735_Breakout</downloadURL>
+  </bobspec>
+</component>

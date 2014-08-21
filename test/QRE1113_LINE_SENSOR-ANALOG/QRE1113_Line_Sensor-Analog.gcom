@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<component>
-  <name>QRE1113_Line_Sensor-Analog</name>
-  <QA tested="false" completed="false"/>
-  <bobspec device-name="QRE1113_LINE_SENSOR-ANALOG">
-    <downloadURL protocol="svn">https://github.com/sparkfun/QRE1113_Line_Sensor-Analog</downloadURL>
-  </bobspec>
-</component>

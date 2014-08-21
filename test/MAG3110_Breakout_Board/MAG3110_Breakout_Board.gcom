@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<component>
+  <name>Triple Axis Magnetometer Breakout - MAG3110</name>
+  <QA tested="false" completed="false"/>
+  <keyname>MAG3110_Breakout_Board</keyname>
+  <bobspec device-name="MAG3110_BREAKOUT_BOARD">
+    <downloadURL protocol="svn">https://github.com/sparkfun/MAG3110_Breakout_Board</downloadURL>
+  </bobspec>
+  <variant>
+    <supplier name="Sparkfun" price="14.95" updated="2014-08-21" part-number="12670"/>
+    <documentationURL>https://www.sparkfun.com/products/12670</documentationURL>
+    <longname>Triple Axis Magnetometer Breakout - MAG3110</longname>
+    <eagledevice name="MAG3110_BREAKOUT_BOARD"/>
+  </variant>
+  <variant>
+    <supplier name="Sparkfun" price="11.96" updated="2014-08-21" part-number="10619"/>
+    <documentationURL>https://www.sparkfun.com/products/10619</documentationURL>
+    <longname>Triple Axis Magnetometer Breakout - MAG3110</longname>
+    <eagledevice name="MAG3110_BREAKOUT_BOARD"/>
+  </variant>
+</component>

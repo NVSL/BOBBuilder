@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<component>
-  <name>Serial_7_Segment_Shield</name>
-  <QA tested="false" completed="false"/>
-  <bobspec device-name="SERIAL_7_SEGMENT_SHIELD">
-    <downloadURL protocol="svn">https://github.com/sparkfun/Serial_7_Segment_Shield</downloadURL>
-  </bobspec>
-</component>

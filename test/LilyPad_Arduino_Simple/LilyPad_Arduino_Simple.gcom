@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<component>
+  <name>LilyPad Arduino Simple Board</name>
+  <QA tested="false" completed="false"/>
+  <keyname>LilyPad_Arduino_Simple</keyname>
+  <bobspec device-name="LILYPAD_ARDUINO_SIMPLE">
+    <downloadURL protocol="svn">https://github.com/sparkfun/LilyPad_Arduino_Simple</downloadURL>
+  </bobspec>
+  <variant>
+    <supplier name="Sparkfun" price="19.95" updated="2014-08-21" part-number="10274"/>
+    <documentationURL>https://www.sparkfun.com/products/10274</documentationURL>
+    <longname>LilyPad Arduino Simple Board</longname>
+    <eagledevice name="LILYPAD_ARDUINO_SIMPLE"/>
+  </variant>
+</component>

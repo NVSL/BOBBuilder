@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<component>
+  <name>Cellular Shield with SM5100B</name>
+  <QA tested="false" completed="false"/>
+  <keyname>SM5100B_Cellular_Shield</keyname>
+  <bobspec device-name="SM5100B_CELLULAR_SHIELD">
+    <downloadURL protocol="svn">https://github.com/sparkfun/SM5100B_Cellular_Shield</downloadURL>
+  </bobspec>
+  <variant>
+    <supplier name="Sparkfun" price="99.95" updated="2014-08-21" part-number="9607"/>
+    <documentationURL>https://www.sparkfun.com/products/9607</documentationURL>
+    <longname>Cellular Shield with SM5100B</longname>
+    <eagledevice name="SM5100B_CELLULAR_SHIELD"/>
+  </variant>
+</component>

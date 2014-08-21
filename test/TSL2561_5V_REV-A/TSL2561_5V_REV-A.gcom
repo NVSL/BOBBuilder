@@ -2,6 +2,7 @@
 <component>
   <name>Adafruit TSL2561 Digital Luminosity/Lux/Light Sensor Breakout</name>
   <QA tested="false"/>
+  <keyname>TSL2561_5V_REV-A</keyname>
   <bobspec device-name="TSL2561_5V_REV-A">
     <connector name="JP1"/>
     <downloadURL protocol="svn">https://github.com/adafruit/TSL2561-breakout-board-PCB</downloadURL>

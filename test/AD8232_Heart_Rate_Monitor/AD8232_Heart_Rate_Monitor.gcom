@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<component>
+  <name>AD8232 Single Lead Heart Rate Monitor</name>
+  <QA tested="false" completed="false"/>
+  <keyname>AD8232_Heart_Rate_Monitor</keyname>
+  <bobspec device-name="AD8232_HEART_RATE_MONITOR">
+    <downloadURL protocol="svn">https://github.com/sparkfun/AD8232_Heart_Rate_Monitor</downloadURL>
+  </bobspec>
+  <variant>
+    <supplier name="Sparkfun" price="19.95" updated="2014-08-21" part-number="12650"/>
+    <documentationURL>https://www.sparkfun.com/products/12650</documentationURL>
+    <longname>AD8232 Single Lead Heart Rate Monitor</longname>
+    <eagledevice name="AD8232_HEART_RATE_MONITOR"/>
+  </variant>
+</component>

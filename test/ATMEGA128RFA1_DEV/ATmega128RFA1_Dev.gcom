@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<component>
-  <name>ATmega128RFA1_Dev</name>
-  <QA tested="false" completed="false"/>
-  <bobspec device-name="ATMEGA128RFA1_DEV">
-    <downloadURL protocol="svn">https://github.com/sparkfun/ATmega128RFA1_Dev</downloadURL>
-  </bobspec>
-</component>

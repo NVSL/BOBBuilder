@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<component>
+  <name>LED RingCoder Breakout - RGB</name>
+  <QA tested="false" completed="false"/>
+  <keyname>LED_RingCoder_Breakout</keyname>
+  <bobspec device-name="LED_RINGCODER_BREAKOUT">
+    <downloadURL protocol="svn">https://github.com/sparkfun/LED_RingCoder_Breakout</downloadURL>
+  </bobspec>
+  <variant>
+    <supplier name="Sparkfun" price="6.95" updated="2014-08-21" part-number="11040"/>
+    <documentationURL>https://www.sparkfun.com/products/11040</documentationURL>
+    <longname>LED RingCoder Breakout - RGB</longname>
+    <eagledevice name="LED_RINGCODER_BREAKOUT"/>
+  </variant>
+</component>

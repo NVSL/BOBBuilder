@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<component>
+  <name>ISL29125 RGB Light Sensor</name>
+  <QA tested="false" completed="false"/>
+  <keyname>ISL29125_Breakout</keyname>
+  <bobspec device-name="ISL29125_BREAKOUT">
+    <downloadURL protocol="svn">https://github.com/sparkfun/ISL29125_Breakout</downloadURL>
+  </bobspec>
+  <variant>
+    <supplier name="Sparkfun" price="7.95" updated="2014-08-21" part-number="12829"/>
+    <documentationURL>https://www.sparkfun.com/products/12829</documentationURL>
+    <longname>ISL29125 RGB Light Sensor</longname>
+    <eagledevice name="ISL29125_BREAKOUT"/>
+  </variant>
+</component>

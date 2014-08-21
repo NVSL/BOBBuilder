@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<component>
+  <name>SD/MMC Card Breakout</name>
+  <QA tested="false"/>
+  <keyname>SD_MMC-Breakout-v20</keyname>
+  <bobspec device-name="SD_MMC-BREAKOUT-V20">
+    <connector name="JP5"/>
+    <copy name="U$5"/>
+    <copy name="U$4"/>
+    <downloadURL protocol="svn">https://github.com/sparkfun/SD-MMC_Breakout</downloadURL>
+    <brdfile>ext/SD-MMC_Breakout/trunk/Hardware/SD_MMC Breakout-v20.brd</brdfile>
+    <schfile>ext/SD-MMC_Breakout/trunk/Hardware/SD_MMC Breakout-v20.sch</schfile>
+  </bobspec>
+  <variant>
+    <supplier name="Sparkfun" price="9.95" updated="2014-08-21" part-number="12941"/>
+    <documentationURL>https://www.sparkfun.com/products/12941</documentationURL>
+    <longname>SD/MMC Card Breakout</longname>
+    <eagledevice name="SD_MMC-BREAKOUT-V20"/>
+  </variant>
+</component>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<component>
+  <name>SHARP Memory Display Breakout - 1.3" 96x96 Silver Monochrome</name>
+  <QA tested="false" completed="false"/>
+  <keyname>Adafruit_SharpMemoryDisplay</keyname>
+  <bobspec device-name="ADAFRUIT_SHARPMEMORYDISPLAY">
+    <downloadURL protocol="svn">https://github.com/adafruit/Adafruit-Sharp-Memory-Display</downloadURL>
+    <brdfile>ext/Adafruit-Sharp-Memory-Display/trunk/Adafruit_SharpMemoryDisplay.brd</brdfile>
+    <schfile>ext/Adafruit-Sharp-Memory-Display/trunk/Adafruit_SharpMemoryDisplay.sch</schfile>
+  </bobspec>
+  <variant>
+    <supplier name="Adafruit" price="39.95" updated="2014-08-21" part-number="1393"/>
+    <documentationURL>http://adafru.it/1393</documentationURL>
+    <longname>SHARP Memory Display Breakout - 1.3" 96x96 Silver Monochrome</longname>
+    <eagledevice name="ADAFRUIT_SHARPMEMORYDISPLAY"/>
+  </variant>
+</component>

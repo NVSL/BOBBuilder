@@ -2,6 +2,7 @@
 <component>
   <name>UDB5</name>
   <QA tested="false" completed="false"/>
+  <keyname>UDB5</keyname>
   <bobspec device-name="UDB5">
     <downloadURL protocol="svn">https://github.com/sparkfun/UDB5</downloadURL>
   </bobspec>

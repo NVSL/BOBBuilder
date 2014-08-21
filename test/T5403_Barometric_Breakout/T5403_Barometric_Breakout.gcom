@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<component>
+  <name>T5403_Barometric_Breakout</name>
+  <QA tested="false" completed="false"/>
+  <keyname>T5403_Barometric_Breakout</keyname>
+  <bobspec device-name="T5403_BAROMETRIC_BREAKOUT">
+    <downloadURL protocol="svn">https://github.com/sparkfun/T5403_Barometric_Breakout</downloadURL>
+  </bobspec>
+</component>

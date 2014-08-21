@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<component>
+  <name>Monster Moto Shield</name>
+  <QA tested="false" completed="false"/>
+  <keyname>Monster_Moto_Shield</keyname>
+  <bobspec device-name="MONSTER_MOTO_SHIELD">
+    <downloadURL protocol="svn">https://github.com/sparkfun/Monster_Moto_Shield</downloadURL>
+  </bobspec>
+  <variant>
+    <supplier name="Sparkfun" price="69.95" updated="2014-08-21" part-number="10182"/>
+    <documentationURL>https://www.sparkfun.com/products/10182</documentationURL>
+    <longname>Monster Moto Shield</longname>
+    <eagledevice name="MONSTER_MOTO_SHIELD"/>
+  </variant>
+</component>

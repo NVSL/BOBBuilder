@@ -2,6 +2,7 @@
 <component>
   <name>Humidity and Temperature Sensor - RHT03</name>
   <QA tested="false" completed="false"/>
+  <keyname>RHT03</keyname>
   <bobspec device-name="RHT03">
     <downloadURL protocol="svn">https://github.com/sparkfun/RHT03</downloadURL>
   </bobspec>

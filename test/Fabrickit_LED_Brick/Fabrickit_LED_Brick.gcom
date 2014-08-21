@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<component>
+  <name>Fabrickit_LED_Brick</name>
+  <QA tested="false" completed="false"/>
+  <keyname>Fabrickit_LED_Brick</keyname>
+  <bobspec device-name="FABRICKIT_LED_BRICK">
+    <downloadURL protocol="svn">https://github.com/sparkfun/Fabrickit_LED_Brick</downloadURL>
+  </bobspec>
+  <variant>
+    <supplier name="Sparkfun" price="" updated="2014-08-21" part-number="10412"/>
+    <documentationURL>https://www.sparkfun.com/products/10412</documentationURL>
+    <longname>Fabrickit_LED_Brick</longname>
+    <eagledevice name="FABRICKIT_LED_BRICK"/>
+  </variant>
+</component>
