@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<component>
+  <name>INA169_Breakout</name>
+  <QA tested="false" completed="false"/>
+  <bobspec device-name="INA169_BREAKOUT">
+    <downloadURL protocol="svn">https://github.com/sparkfun/INA169_Breakout</downloadURL>
+  </bobspec>
+</component>

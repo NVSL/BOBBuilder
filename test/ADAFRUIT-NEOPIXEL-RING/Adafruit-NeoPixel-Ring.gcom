@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<component>
+  <name>NeoPixel Ring - 16 x WS2812 5050 RGB LED with Integrated Drivers</name>
+  <QA tested="false" completed="false"/>
+  <bobspec device-name="ADAFRUIT-NEOPIXEL-RING">
+    <downloadURL protocol="svn">https://github.com/adafruit/Adafruit-NeoPixel-Ring</downloadURL>
+  </bobspec>
+  <variant>
+    <supplier name="Adafruit" price="9.95" updated="2014-08-21" part-number="1463"/>
+    <documentationURL>http://adafru.it/1463</documentationURL>
+    <longname>NeoPixel Ring - 16 x WS2812 5050 RGB LED with Integrated Drivers</longname>
+    <eagledevice name="ADAFRUIT-NEOPIXEL-RING"/>
+  </variant>
+  <variant>
+    <supplier name="Adafruit" price="19.95" updated="2014-08-21" part-number="1586"/>
+    <documentationURL>http://adafru.it/1586</documentationURL>
+    <longname>NeoPixel Ring - 24 x WS2812 5050 RGB LED with Integrated Drivers</longname>
+    <eagledevice name="ADAFRUIT-NEOPIXEL-RING"/>
+  </variant>
+  <variant>
+    <supplier name="Adafruit" price="7.50" updated="2014-08-21" part-number="1643"/>
+    <documentationURL>http://adafru.it/1643</documentationURL>
+    <longname>NeoPixel Ring - 12 x WS2812 5050 RGB LED with Integrated Drivers</longname>
+    <eagledevice name="ADAFRUIT-NEOPIXEL-RING"/>
+  </variant>
+</component>

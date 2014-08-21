@@ -1,0 +1,2 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+LED RingCoder Breakout - RGB,Sparkfun,11040,$6.95,https://www.sparkfun.com/products/11040,TRUE,,,,,,svn,https://github.com/sparkfun/LED_RingCoder_Breakout,

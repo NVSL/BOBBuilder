@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<component>
+  <name>Venus GPS Logger with SMA Connector</name>
+  <QA tested="false" completed="false"/>
+  <bobspec device-name="VENUS_GPS_LOGGER_SMA">
+    <downloadURL protocol="svn">https://github.com/sparkfun/Venus_GPS_Logger_SMA</downloadURL>
+  </bobspec>
+  <variant>
+    <supplier name="Sparkfun" price="59.95" updated="2014-08-21" part-number="10920"/>
+    <documentationURL>https://www.sparkfun.com/products/10920</documentationURL>
+    <longname>Venus GPS Logger with SMA Connector</longname>
+    <eagledevice name="VENUS_GPS_LOGGER_SMA"/>
+  </variant>
+</component>

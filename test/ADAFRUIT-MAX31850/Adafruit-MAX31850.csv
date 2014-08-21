@@ -1,0 +1,2 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+Thermocouple Amplifier with 1-Wire Breakout Board - MAX31850K,Adafruit,1727,$14.95,http://adafru.it/1727,TRUE,FALSE,FALSE,,,,svn,https://github.com/adafruit/Adafruit-MAX31850-thermocouple-breakout-board,Adafruit-MAX31850-thermocouple-breakout-board/trunk/Adafruit MAX31850.brd

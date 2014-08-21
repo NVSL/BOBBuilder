@@ -1,0 +1,2 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+Venus GPS Logger with SMA Connector,Sparkfun,10920,$59.95,https://www.sparkfun.com/products/10920,TRUE,,,,,,svn,https://github.com/sparkfun/Venus_GPS_Logger_SMA,

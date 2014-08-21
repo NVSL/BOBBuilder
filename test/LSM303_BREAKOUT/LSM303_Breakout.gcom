@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<component>
+  <name>LSM303_Breakout</name>
+  <QA tested="false" completed="false"/>
+  <bobspec device-name="LSM303_BREAKOUT">
+    <downloadURL protocol="svn">https://github.com/sparkfun/LSM303_Breakout</downloadURL>
+  </bobspec>
+  <variant>
+    <supplier name="Sparkfun" price="" updated="2014-08-21" part-number="10888"/>
+    <documentationURL>https://www.sparkfun.com/products/10888</documentationURL>
+    <longname>LSM303_Breakout</longname>
+    <eagledevice name="LSM303_BREAKOUT"/>
+  </variant>
+</component>

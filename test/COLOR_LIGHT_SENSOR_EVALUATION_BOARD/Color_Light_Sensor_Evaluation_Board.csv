@@ -1,0 +1,2 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+Color_Light_Sensor_Evaluation_Board,Sparkfun,10701,,https://www.sparkfun.com/products/10701,TRUE,,,,,,svn,https://github.com/sparkfun/Color_Light_Sensor_Evaluation_Board,

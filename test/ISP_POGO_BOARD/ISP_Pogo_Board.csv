@@ -1,0 +1,2 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+ISP Pogo Adapter,Sparkfun,11591,$9.95,https://www.sparkfun.com/products/11591,TRUE,,,,,,svn,https://github.com/sparkfun/ISP_Pogo_Board,

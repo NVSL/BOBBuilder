@@ -1,0 +1,2 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+Transceiver nRF2401A with Chip Antenna,Sparkfun,152,$14.95,https://www.sparkfun.com/products/152,TRUE,,,,,,svn,https://github.com/sparkfun/nRF2401A_Transceiver-Chip_Antenna,

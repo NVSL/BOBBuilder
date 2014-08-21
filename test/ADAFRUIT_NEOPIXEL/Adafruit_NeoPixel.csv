@@ -1,0 +1,5 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+Flora RGB Smart NeoPixel version 1 - Pack of 4,Adafruit,1060,$9.95,http://adafru.it/1060,TRUE,FALSE,FALSE,,,,svn,https://github.com/adafruit/Adafruit_NeoPixel,
+Adafruit NeoPixel Digital RGB LED Weatherproof Strip 60 LED -1m,Adafruit,1138,$24.95,http://adafru.it/1138,TRUE,FALSE,FALSE,,,,svn,https://github.com/adafruit/Adafruit_NeoPixel,
+NeoPixel Stick - 8 x WS2812 5050 RGB LED with Integrated Drivers,Adafruit,1426,$5.95,http://adafru.it/1426,TRUE,FALSE,FALSE,,,,svn,https://github.com/adafruit/Adafruit_NeoPixel,
+Adafruit NeoPixel Shield for Arduino - 40 RGB LED Pixel Matrix,Adafruit,1430,$27.95,http://adafru.it/1430,TRUE,FALSE,FALSE,,,,svn,https://github.com/adafruit/Adafruit_NeoPixel,

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<component>
+  <name>Capacitive Touch Sensor Breakout - MPR121</name>
+  <QA tested="false" completed="false"/>
+  <bobspec device-name="MPR121_CAPACITIVE_TOUCH_BREAKOUT">
+    <downloadURL protocol="svn">https://github.com/sparkfun/MPR121_Capacitive_Touch_Breakout</downloadURL>
+  </bobspec>
+  <variant>
+    <supplier name="Sparkfun" price="9.95" updated="2014-08-21" part-number="9695"/>
+    <documentationURL>https://www.sparkfun.com/products/9695</documentationURL>
+    <longname>Capacitive Touch Sensor Breakout - MPR121</longname>
+    <eagledevice name="MPR121_CAPACITIVE_TOUCH_BREAKOUT"/>
+  </variant>
+</component>

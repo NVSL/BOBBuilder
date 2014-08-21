@@ -1,0 +1,2 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+MP3 Player Shield,Sparkfun,10628,$39.95,https://www.sparkfun.com/products/10628,TRUE,,,,,,svn,https://github.com/sparkfun/MP3_Player_Shield,

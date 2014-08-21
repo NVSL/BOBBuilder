@@ -1,0 +1,2 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+LiPower - Boost Converter,Sparkfun,10255,$14.95,https://www.sparkfun.com/products/10255,TRUE,,,,,,svn,https://github.com/sparkfun/LiPower_Boost_Converter,

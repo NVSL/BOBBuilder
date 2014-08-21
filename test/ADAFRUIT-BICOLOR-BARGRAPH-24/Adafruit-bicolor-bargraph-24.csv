@@ -1,0 +1,2 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+Bi-Color (Red/Green) 24-Bar Bargraph w/I2C Backpack Kit,Adafruit,1721,$9.95,http://adafru.it/1721,,FALSE,TRUE,CN1,,,svn,https://github.com/adafruit/Adafruit-LED-Backpacks,Adafruit-LED-Backpacks/trunk/Adafruit bicolor bargraph 24.brd

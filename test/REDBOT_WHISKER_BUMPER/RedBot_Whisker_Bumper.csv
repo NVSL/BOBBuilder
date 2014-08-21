@@ -1,0 +1,2 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+RedBot_Whisker_Bumper,Sparkfun,,,,TRUE,,,,,,svn,https://github.com/sparkfun/RedBot_Whisker_Bumper,

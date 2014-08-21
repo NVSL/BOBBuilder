@@ -1,0 +1,4 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+Rover 5 Motor Driver Board,Sparkfun,11593,$24.95,https://www.sparkfun.com/products/11593,TRUE,,,,,,svn,https://github.com/sparkfun/Rover5_Motor_Driver_Board,
+Rover 5 Robot Platform,Sparkfun,10336,$59.95,https://www.sparkfun.com/products/10336,TRUE,,,,,,svn,https://github.com/sparkfun/Rover5_Motor_Driver_Board,
+Arduino Uno- R3 SMD,Sparkfun,11224,$29.95,https://www.sparkfun.com/products/11224,TRUE,,,,,,svn,https://github.com/sparkfun/Rover5_Motor_Driver_Board,

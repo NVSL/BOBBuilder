@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<component>
+  <name>MP3 Player Shield</name>
+  <QA tested="false" completed="false"/>
+  <bobspec device-name="MP3_PLAYER_SHIELD">
+    <downloadURL protocol="svn">https://github.com/sparkfun/MP3_Player_Shield</downloadURL>
+  </bobspec>
+  <variant>
+    <supplier name="Sparkfun" price="39.95" updated="2014-08-21" part-number="10628"/>
+    <documentationURL>https://www.sparkfun.com/products/10628</documentationURL>
+    <longname>MP3 Player Shield</longname>
+    <eagledevice name="MP3_PLAYER_SHIELD"/>
+  </variant>
+</component>

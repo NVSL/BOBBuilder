@@ -1,0 +1,2 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+Analog/Digital MUX Breakout,Sparkfun,9056,$4.95,https://www.sparkfun.com/products/9056,TRUE,,,,,,svn,https://github.com/sparkfun/Analog_Digital_MUX_Breakout,

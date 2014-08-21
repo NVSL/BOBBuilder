@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<component>
+  <name>Breakout Board for FT232RL USB to Serial</name>
+  <QA tested="false" completed="false"/>
+  <bobspec device-name="FT232RL_USB_BREAKOUT">
+    <downloadURL protocol="svn">https://github.com/sparkfun/FT232RL_USB_Breakout</downloadURL>
+  </bobspec>
+  <variant>
+    <supplier name="Sparkfun" price="14.95" updated="2014-08-21" part-number="718"/>
+    <documentationURL>https://www.sparkfun.com/products/718</documentationURL>
+    <longname>Breakout Board for FT232RL USB to Serial</longname>
+    <eagledevice name="FT232RL_USB_BREAKOUT"/>
+  </variant>
+</component>

@@ -1,0 +1,4 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+NeoPixel Ring - 16 x WS2812 5050 RGB LED with Integrated Drivers,Adafruit,1463,$9.95,http://adafru.it/1463,TRUE,FALSE,FALSE,,,,svn,https://github.com/adafruit/Adafruit-NeoPixel-Ring,
+NeoPixel Ring - 24 x WS2812 5050 RGB LED with Integrated Drivers,Adafruit,1586,$19.95,http://adafru.it/1586,TRUE,FALSE,FALSE,,,,svn,https://github.com/adafruit/Adafruit-NeoPixel-Ring,
+NeoPixel Ring - 12 x WS2812 5050 RGB LED with Integrated Drivers,Adafruit,1643,$7.50,http://adafru.it/1643,TRUE,FALSE,FALSE,,,,svn,https://github.com/adafruit/Adafruit-NeoPixel-Ring,

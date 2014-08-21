@@ -1,0 +1,2 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+Adafruit Trinket - Mini Microcontroller - 5V Logic,Adafruit,1501,$7.95,http://adafru.it/1501,,FALSE,FALSE,CN4 CN3 U$8 U$9,,,svn,https://github.com/adafruit/Adafruit-Trinket-PCB,Adafruit-Trinket-PCB/trunk/Adafruit Trinket 5V.brd

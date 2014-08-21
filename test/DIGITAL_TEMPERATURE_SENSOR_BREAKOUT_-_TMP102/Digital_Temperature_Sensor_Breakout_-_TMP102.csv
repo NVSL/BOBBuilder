@@ -1,0 +1,2 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+Digital Temperature Sensor Breakout - TMP102,Sparkfun,11931,$5.95,https://www.sparkfun.com/products/11931,TRUE,,,,,,svn,https://github.com/sparkfun/Digital_Temperature_Sensor_Breakout_-_TMP102,

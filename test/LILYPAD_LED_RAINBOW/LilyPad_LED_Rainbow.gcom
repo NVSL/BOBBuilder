@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<component>
+  <name>LilyPad Rainbow LED Panel (5 strips of 7 colors)</name>
+  <QA tested="false" completed="false"/>
+  <bobspec device-name="LILYPAD_LED_RAINBOW">
+    <downloadURL protocol="svn">https://github.com/sparkfun/LilyPad_LED_Rainbow</downloadURL>
+  </bobspec>
+  <variant>
+    <supplier name="Sparkfun" price="24.95" updated="2014-08-21" part-number="11843"/>
+    <documentationURL>https://www.sparkfun.com/products/11843</documentationURL>
+    <longname>LilyPad Rainbow LED Panel (5 strips of 7 colors)</longname>
+    <eagledevice name="LILYPAD_LED_RAINBOW"/>
+  </variant>
+</component>

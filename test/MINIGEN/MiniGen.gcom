@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<component>
+  <name>MiniGen - Pro Mini Signal Generator Shield</name>
+  <QA tested="false" completed="false"/>
+  <bobspec device-name="MINIGEN">
+    <downloadURL protocol="svn">https://github.com/sparkfun/MiniGen</downloadURL>
+  </bobspec>
+  <variant>
+    <supplier name="Sparkfun" price="29.95" updated="2014-08-21" part-number="11420"/>
+    <documentationURL>https://www.sparkfun.com/products/11420</documentationURL>
+    <longname>MiniGen - Pro Mini Signal Generator Shield</longname>
+    <eagledevice name="MINIGEN"/>
+  </variant>
+</component>

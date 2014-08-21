@@ -1,0 +1,2 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+MMA8452_Accelerometer,Sparkfun,,,,TRUE,,,,,,svn,https://github.com/sparkfun/MMA8452_Accelerometer,

@@ -1,0 +1,2 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+Real Time Clock Module,Sparkfun,12708,$14.95,https://www.sparkfun.com/products/12708,TRUE,,,,,,svn,https://github.com/sparkfun/RTC-Module,

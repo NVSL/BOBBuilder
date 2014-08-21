@@ -1,0 +1,2 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+Breadboard-friendly RGB Smart NeoPixel - Pack of 4,Adafruit,1312,$7.95,http://adafru.it/1312,TRUE,FALSE,FALSE,,,,svn,https://github.com/adafruit/Adafruit_Breadboard_NeoPixel_PCB,Adafruit_Breadboard_NeoPixel_PCB/trunk/Adafruit_Breadboard_NeoPixel.brd

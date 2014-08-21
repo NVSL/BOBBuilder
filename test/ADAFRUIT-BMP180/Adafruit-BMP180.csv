@@ -1,0 +1,2 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+BMP180 Barometric Pressure/Temperature/Altitude Sensor- 5V ready,Adafruit,1603,$9.95,http://adafru.it/1603,TRUE,FALSE,FALSE,,,,svn,https://github.com/adafruit/Adafruit-BMP180-PCB,Adafruit-BMP180-PCB/trunk/Adafruit BMP180.brd

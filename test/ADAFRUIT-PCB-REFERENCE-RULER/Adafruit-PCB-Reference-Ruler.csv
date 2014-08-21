@@ -1,0 +1,2 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+"Adafruit PCB Ruler - 6""",Adafruit,1554,$4.95,http://adafru.it/1554,TRUE,FALSE,FALSE,,,,svn,https://github.com/adafruit/Adafruit-PCB-Ruler,Adafruit-PCB-Ruler/trunk/Adafruit PCB Reference Ruler.brd

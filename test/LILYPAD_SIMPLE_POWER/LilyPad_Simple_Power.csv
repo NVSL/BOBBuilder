@@ -1,0 +1,2 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+LilyPad Simple Power,Sparkfun,10085,$4.95,https://www.sparkfun.com/products/10085,TRUE,,,,,,svn,https://github.com/sparkfun/LilyPad_Simple_Power,

@@ -1,0 +1,2 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+ADXL345 - Triple-Axis Accelerometer (+-2g/4g/8g/16g) w/ I2C/SPI,Adafruit,1231,$17.50,http://adafru.it/1231,TRUE,FALSE,FALSE,,,,svn,https://github.com/adafruit/Adafruit_ADXL345_PCB,Adafruit_ADXL345_PCB/trunk/Adafruit_ADXL345.brd

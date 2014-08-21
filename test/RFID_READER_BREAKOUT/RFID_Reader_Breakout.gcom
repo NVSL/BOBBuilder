@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<component>
+  <name>RFID Reader Breakout</name>
+  <QA tested="false" completed="false"/>
+  <bobspec device-name="RFID_READER_BREAKOUT">
+    <downloadURL protocol="svn">https://github.com/sparkfun/RFID_Reader_Breakout</downloadURL>
+  </bobspec>
+  <variant>
+    <supplier name="Sparkfun" price="1.95" updated="2014-08-21" part-number="13030"/>
+    <documentationURL>https://www.sparkfun.com/products/13030</documentationURL>
+    <longname>RFID Reader Breakout</longname>
+    <eagledevice name="RFID_READER_BREAKOUT"/>
+  </variant>
+  <variant>
+    <supplier name="Sparkfun" price="0.50" updated="2014-08-21" part-number="8272"/>
+    <documentationURL>https://www.sparkfun.com/products/8272</documentationURL>
+    <longname>2mm 10pin XBee Socket</longname>
+    <eagledevice name="RFID_READER_BREAKOUT"/>
+  </variant>
+</component>

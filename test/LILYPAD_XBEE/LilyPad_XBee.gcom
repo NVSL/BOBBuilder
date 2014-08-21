@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<component>
+  <name>LilyPad XBee</name>
+  <QA tested="false" completed="false"/>
+  <bobspec device-name="LILYPAD_XBEE">
+    <downloadURL protocol="svn">https://github.com/sparkfun/LilyPad_XBee</downloadURL>
+  </bobspec>
+  <variant>
+    <supplier name="Sparkfun" price="14.95" updated="2014-08-21" part-number="8937"/>
+    <documentationURL>https://www.sparkfun.com/products/8937</documentationURL>
+    <longname>LilyPad XBee</longname>
+    <eagledevice name="LILYPAD_XBEE"/>
+  </variant>
+</component>

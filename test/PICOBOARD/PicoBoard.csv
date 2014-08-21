@@ -1,0 +1,2 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+PicoBoard,Sparkfun,10311,$44.95,https://www.sparkfun.com/products/10311,TRUE,,,,,,svn,https://github.com/sparkfun/PicoBoard,

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<component>
+  <name>LED_Matrix_Serial_Interface_RGB</name>
+  <QA tested="false" completed="false"/>
+  <bobspec device-name="LED_MATRIX_SERIAL_INTERFACE_RGB">
+    <downloadURL protocol="svn">https://github.com/sparkfun/LED_Matrix_Serial_Interface_RGB</downloadURL>
+  </bobspec>
+</component>

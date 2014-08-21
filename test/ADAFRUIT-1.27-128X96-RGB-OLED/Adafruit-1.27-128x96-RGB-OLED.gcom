@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<component>
+  <name>OLED Breakout Board - 16-bit Color 1.27" w/microSD holder</name>
+  <QA tested="false" completed="false"/>
+  <bobspec device-name="ADAFRUIT-1.27-128X96-RGB-OLED">
+    <downloadURL protocol="svn">https://github.com/adafruit/Adafruit-1.27inch-Color-OLED-Breakout-PCB</downloadURL>
+    <brdfile>ext/Adafruit-1.27inch-Color-OLED-Breakout-PCB/trunk/Adafruit 1.27 128x96 RGB OLED.brd</brdfile>
+    <schfile>ext/Adafruit-1.27inch-Color-OLED-Breakout-PCB/trunk/Adafruit 1.27 128x96 RGB OLED.sch</schfile>
+  </bobspec>
+  <variant>
+    <supplier name="Adafruit" price="34.95" updated="2014-08-21" part-number="1673"/>
+    <documentationURL>http://adafru.it/1673</documentationURL>
+    <longname>OLED Breakout Board - 16-bit Color 1.27" w/microSD holder</longname>
+    <eagledevice name="ADAFRUIT-1.27-128X96-RGB-OLED"/>
+  </variant>
+</component>

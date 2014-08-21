@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<component>
+  <name>MCP4725 Breakout Board - 12-Bit DAC w/I2C Interface</name>
+  <QA tested="false" completed="false"/>
+  <bobspec device-name="ADAFRUIT_MCP4725">
+    <downloadURL protocol="svn">https://github.com/adafruit/Adafruit_MCP4725</downloadURL>
+  </bobspec>
+  <variant>
+    <supplier name="Adafruit" price="4.95" updated="2014-08-21" part-number="935"/>
+    <documentationURL>http://adafru.it/935</documentationURL>
+    <longname>MCP4725 Breakout Board - 12-Bit DAC w/I2C Interface</longname>
+    <eagledevice name="ADAFRUIT_MCP4725"/>
+  </variant>
+</component>

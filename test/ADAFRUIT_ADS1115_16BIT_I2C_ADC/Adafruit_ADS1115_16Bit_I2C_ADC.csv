@@ -1,0 +1,2 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+ADS1115 16-Bit ADC - 4 Channel with Programmable Gain Amplifier,Adafruit,1085,$14.95,http://adafru.it/1085,,FALSE,FALSE,JP1,,,svn,https://github.com/adafruit/ADS1X15-Breakout-Board-PCBs,ADS1X15-Breakout-Board-PCBs/trunk/Adafruit_ADS1115_16Bit_I2C_ADC.brd

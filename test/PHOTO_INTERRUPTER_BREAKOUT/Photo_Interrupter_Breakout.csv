@@ -1,0 +1,2 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+Photo Interrupter Breakout Board - GP1A57HRJ00F,Sparkfun,9322,$1.50,https://www.sparkfun.com/products/9322,TRUE,,,,,,svn,https://github.com/sparkfun/Photo_Interrupter_Breakout,

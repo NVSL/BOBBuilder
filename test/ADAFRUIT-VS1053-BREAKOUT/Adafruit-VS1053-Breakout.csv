@@ -1,0 +1,2 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+VS1053 Codec + MicroSD Breakout - MP3/WAV/MIDI/OGG Play + Record,Adafruit,1381,$24.95,http://adafru.it/1381,TRUE,FALSE,FALSE,,,,svn,https://github.com/adafruit/Adafruit-VS1053-Breakout-PCB,Adafruit-VS1053-Breakout-PCB/trunk/Adafruit VS1053 Breakout.brd

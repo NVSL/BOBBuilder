@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<component>
+  <name>Photo Interrupter Breakout Board - GP1A57HRJ00F</name>
+  <QA tested="false" completed="false"/>
+  <bobspec device-name="PHOTO_INTERRUPTER_BREAKOUT">
+    <downloadURL protocol="svn">https://github.com/sparkfun/Photo_Interrupter_Breakout</downloadURL>
+  </bobspec>
+  <variant>
+    <supplier name="Sparkfun" price="1.50" updated="2014-08-21" part-number="9322"/>
+    <documentationURL>https://www.sparkfun.com/products/9322</documentationURL>
+    <longname>Photo Interrupter Breakout Board - GP1A57HRJ00F</longname>
+    <eagledevice name="PHOTO_INTERRUPTER_BREAKOUT"/>
+  </variant>
+</component>

@@ -1,0 +1,2 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+Bluetooth Module Breakout - Roving Networks (RN-41 v6.15),Sparkfun,12579,$59.95,https://www.sparkfun.com/products/12579,TRUE,,,,,,svn,https://github.com/sparkfun/Bluetooth_Module_Breakout,

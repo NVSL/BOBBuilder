@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<component>
+  <name>TXB0104_breakout</name>
+  <QA tested="false" completed="false"/>
+  <bobspec device-name="TXB0104_BREAKOUT">
+    <downloadURL protocol="svn">https://github.com/sparkfun/TXB0104_breakout</downloadURL>
+  </bobspec>
+</component>

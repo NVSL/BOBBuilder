@@ -1,0 +1,5 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+Bluetooth Modem - BlueSMiRF Silver,Sparkfun,12577,$39.95,https://www.sparkfun.com/products/12577,TRUE,,,,,,svn,https://github.com/sparkfun/BlueSMiRF,
+Bluetooth Modem - BlueSMiRF Gold,Sparkfun,12582,$64.95,https://www.sparkfun.com/products/12582,TRUE,,,,,,svn,https://github.com/sparkfun/BlueSMiRF,
+Bluetooth Modem - BlueSMiRF HID,Sparkfun,10938,$44.95,https://www.sparkfun.com/products/10938,TRUE,,,,,,svn,https://github.com/sparkfun/BlueSMiRF,
+Bluetooth Modem - BlueSMiRF Gold,Sparkfun,12582,$64.95,https://www.sparkfun.com/products/12582,TRUE,,,,,,svn,https://github.com/sparkfun/BlueSMiRF,

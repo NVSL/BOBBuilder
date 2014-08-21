@@ -1,0 +1,2 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+PicoBuck LED Driver,Sparkfun,11850,$14.95,https://www.sparkfun.com/products/11850,TRUE,,,,,,svn,https://github.com/sparkfun/PicoBuck,

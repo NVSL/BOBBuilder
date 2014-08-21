@@ -1,0 +1,2 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+Evaluation Board for Si4703 FM Tuner,Sparkfun,10663,$19.95,https://www.sparkfun.com/products/10663,TRUE,,,,,,svn,https://github.com/sparkfun/Si4703_FM_Tuner_Evaluation_Board,

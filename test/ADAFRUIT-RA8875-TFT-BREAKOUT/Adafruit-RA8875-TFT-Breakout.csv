@@ -1,0 +1,2 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+RA8875 Driver Board for 40-pin TFT Touch Displays - 800x480 Max,Adafruit,1590,$34.95,http://adafru.it/1590,TRUE,FALSE,FALSE,,,,svn,https://github.com/adafruit/Adafruit-RA8875-Breakout-Board-PCB,Adafruit-RA8875-Breakout-Board-PCB/trunk/Adafruit RA8875 TFT Breakout.brd

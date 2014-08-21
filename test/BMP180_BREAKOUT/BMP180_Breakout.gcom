@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<component>
+  <name>Barometric Pressure Sensor Breakout - BMP180</name>
+  <QA tested="false" completed="false"/>
+  <bobspec device-name="BMP180_BREAKOUT">
+    <downloadURL protocol="svn">https://github.com/sparkfun/BMP180_Breakout</downloadURL>
+  </bobspec>
+  <variant>
+    <supplier name="Sparkfun" price="9.95" updated="2014-08-21" part-number="11824"/>
+    <documentationURL>https://www.sparkfun.com/products/11824</documentationURL>
+    <longname>Barometric Pressure Sensor Breakout - BMP180</longname>
+    <eagledevice name="BMP180_BREAKOUT"/>
+  </variant>
+</component>

@@ -1,0 +1,6 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+Adafruit Mini 8x8 LED Matrix w/I2C Backpack - Yellow,Adafruit,871,$9.95,http://adafru.it/871,,FALSE,TRUE,CN1,,,svn,https://github.com/adafruit/Adafruit-LED-Backpacks,Adafruit-LED-Backpacks/trunk/Adafruit min8x8 backpack.brd
+"Adafruit Mini 0.8"" 8x8 LED Matrix w/I2C Backpack - Yellow-Green",Adafruit,872,$9.95,http://adafru.it/872,,FALSE,TRUE,CN1,,,svn,https://github.com/adafruit/Adafruit-LED-Backpacks,Adafruit-LED-Backpacks/trunk/Adafruit min8x8 backpack.brd
+Adafruit Mini 8x8 LED Matrix w/I2C Backpack - Red,Adafruit,870,$9.95,http://adafru.it/870,,FALSE,TRUE,CN1,,,svn,https://github.com/adafruit/Adafruit-LED-Backpacks,Adafruit-LED-Backpacks/trunk/Adafruit min8x8 backpack.brd
+Adafruit Mini 8x8 LED Matrix w/I2C Backpack - Ultra Bright White,Adafruit,1080,$13.50,http://adafru.it/1080,,FALSE,TRUE,CN1,,,svn,https://github.com/adafruit/Adafruit-LED-Backpacks,Adafruit-LED-Backpacks/trunk/Adafruit min8x8 backpack.brd
+"Adafruit Mini 0.8"" 8x8 LED Matrix w/I2C Backpack - Pure Green",Adafruit,1633,$10.95,http://adafru.it/1633,,FALSE,TRUE,CN1,,,svn,https://github.com/adafruit/Adafruit-LED-Backpacks,Adafruit-LED-Backpacks/trunk/Adafruit min8x8 backpack.brd

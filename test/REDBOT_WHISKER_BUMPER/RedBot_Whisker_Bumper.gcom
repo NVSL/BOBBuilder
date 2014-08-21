@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<component>
+  <name>RedBot_Whisker_Bumper</name>
+  <QA tested="false" completed="false"/>
+  <bobspec device-name="REDBOT_WHISKER_BUMPER">
+    <downloadURL protocol="svn">https://github.com/sparkfun/RedBot_Whisker_Bumper</downloadURL>
+  </bobspec>
+</component>

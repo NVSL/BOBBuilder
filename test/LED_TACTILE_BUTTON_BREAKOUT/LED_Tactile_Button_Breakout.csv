@@ -1,0 +1,2 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+LED Tactile Button Breakout,Sparkfun,10467,$1.50,https://www.sparkfun.com/products/10467,TRUE,,,,,,svn,https://github.com/sparkfun/LED_Tactile_Button_Breakout,

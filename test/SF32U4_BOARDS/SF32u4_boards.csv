@@ -1,0 +1,6 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+Pro Micro - 5V/16MHz,Sparkfun,12640,$19.95,https://www.sparkfun.com/products/12640,TRUE,,,,,,svn,https://github.com/sparkfun/SF32u4_boards,
+Pro Micro - 3.3V/8MHz,Sparkfun,12587,$19.95,https://www.sparkfun.com/products/12587,TRUE,,,,,,svn,https://github.com/sparkfun/SF32u4_boards,
+LilyPad Arduino USB - ATmega32U4 Board,Sparkfun,12049,$24.95,https://www.sparkfun.com/products/12049,TRUE,,,,,,svn,https://github.com/sparkfun/SF32u4_boards,
+Fio v3 - ATmega32U4,Sparkfun,11520,$34.95,https://www.sparkfun.com/products/11520,TRUE,,,,,,svn,https://github.com/sparkfun/SF32u4_boards,
+Makey Makey - Standard Kit,Sparkfun,11511,$49.95,https://www.sparkfun.com/products/11511,TRUE,,,,,,svn,https://github.com/sparkfun/SF32u4_boards,

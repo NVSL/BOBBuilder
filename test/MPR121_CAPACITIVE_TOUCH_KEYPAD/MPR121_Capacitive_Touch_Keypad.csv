@@ -1,0 +1,2 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+Capacitive Touch Keypad - MPR121,Sparkfun,12017,$19.95,https://www.sparkfun.com/products/12017,TRUE,,,,,,svn,https://github.com/sparkfun/MPR121_Capacitive_Touch_Keypad,

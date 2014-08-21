@@ -1,0 +1,2 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+Adafruit TSL2561 Digital Luminosity/Lux/Light Sensor Breakout,Adafruit,439,$5.95,http://adafru.it/439,,FALSE,FALSE,JP1,,,svn,https://github.com/adafruit/TSL2561-breakout-board-PCB,TSL2561-breakout-board-PCB/trunk/TSL2561_5V_REV-A.brd

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<component>
+  <name>PCA9306 Level Translator Breakout</name>
+  <QA tested="false" completed="false"/>
+  <bobspec device-name="PCA9306_LEVEL_TRANSLATOR_BREAKOUT">
+    <downloadURL protocol="svn">https://github.com/sparkfun/PCA9306_Level_Translator_Breakout</downloadURL>
+  </bobspec>
+  <variant>
+    <supplier name="Sparkfun" price="6.95" updated="2014-08-21" part-number="11955"/>
+    <documentationURL>https://www.sparkfun.com/products/11955</documentationURL>
+    <longname>PCA9306 Level Translator Breakout</longname>
+    <eagledevice name="PCA9306_LEVEL_TRANSLATOR_BREAKOUT"/>
+  </variant>
+</component>

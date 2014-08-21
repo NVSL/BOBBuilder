@@ -1,0 +1,2 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+Triple-Axis Digital-Output Gyro Breakout - ITG-3200,Sparkfun,11977,$24.95,https://www.sparkfun.com/products/11977,TRUE,,,,,,svn,https://github.com/sparkfun/ITG-3200_Breakout,

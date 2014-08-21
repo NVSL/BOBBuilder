@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<component>
+  <name>AutoDriver - Stepper Motor Driver</name>
+  <QA tested="false" completed="false"/>
+  <bobspec device-name="L6470-AUTODRIVER">
+    <downloadURL protocol="svn">https://github.com/sparkfun/L6470-AutoDriver</downloadURL>
+  </bobspec>
+  <variant>
+    <supplier name="Sparkfun" price="34.95" updated="2014-08-21" part-number="11611"/>
+    <documentationURL>https://www.sparkfun.com/products/11611</documentationURL>
+    <longname>AutoDriver - Stepper Motor Driver</longname>
+    <eagledevice name="L6470-AUTODRIVER"/>
+  </variant>
+</component>

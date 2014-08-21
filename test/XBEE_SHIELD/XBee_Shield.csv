@@ -1,0 +1,2 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+XBee Shield,Sparkfun,12847,$24.95,https://www.sparkfun.com/products/12847,TRUE,,,,,,svn,https://github.com/sparkfun/XBee_Shield,

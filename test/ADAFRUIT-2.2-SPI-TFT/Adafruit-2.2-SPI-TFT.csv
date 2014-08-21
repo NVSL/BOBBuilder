@@ -1,0 +1,3 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+"2.2"" 18-bit color TFT LCD display with microSD card breakout",Adafruit,797,$29.95,http://adafru.it/797,TRUE,FALSE,FALSE,,,,svn,https://github.com/adafruit/Adafruit-2.2-SPI-TFT,
+"2.2"" 18-bit color TFT LCD display with microSD card breakout",Adafruit,1480,$24.95,http://adafru.it/1480,TRUE,FALSE,FALSE,,,,svn,https://github.com/adafruit/Adafruit-2.2-SPI-TFT,

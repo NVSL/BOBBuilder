@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<component>
+  <name>CAP1188 - 8-Key Capacitive Touch Sensor Breakout - I2C or SPI</name>
+  <QA tested="false" completed="false"/>
+  <bobspec device-name="ADAFRUIT-CAP1188">
+    <downloadURL protocol="svn">https://github.com/adafruit/Adafruit-CAP1188-PCB</downloadURL>
+    <brdfile>ext/Adafruit-CAP1188-PCB/trunk/Adafruit CAP1188.brd</brdfile>
+    <schfile>ext/Adafruit-CAP1188-PCB/trunk/Adafruit CAP1188.sch</schfile>
+  </bobspec>
+  <variant>
+    <supplier name="Adafruit" price="7.95" updated="2014-08-21" part-number="1602"/>
+    <documentationURL>http://adafru.it/1602</documentationURL>
+    <longname>CAP1188 - 8-Key Capacitive Touch Sensor Breakout - I2C or SPI</longname>
+    <eagledevice name="ADAFRUIT-CAP1188"/>
+  </variant>
+</component>

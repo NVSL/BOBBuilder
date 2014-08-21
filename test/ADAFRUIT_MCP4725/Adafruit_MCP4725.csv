@@ -1,0 +1,2 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+MCP4725 Breakout Board - 12-Bit DAC w/I2C Interface,Adafruit,935,$4.95,http://adafru.it/935,TRUE,FALSE,FALSE,,,,svn,https://github.com/adafruit/Adafruit_MCP4725,

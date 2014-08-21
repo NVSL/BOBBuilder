@@ -1,0 +1,2 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+SI4735_Breakout,Sparkfun,,,,TRUE,,,,,,svn,https://github.com/sparkfun/SI4735_Breakout,

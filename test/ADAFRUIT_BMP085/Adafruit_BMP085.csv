@@ -1,0 +1,2 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+BMP085 Barometric Pressure/Temperature/Altitude Sensor- 5V ready,Adafruit,391,$19.95,http://adafru.it/391,TRUE,FALSE,FALSE,,,,svn,https://github.com/adafruit/Adafruit-BMP085-PCB,Adafruit-BMP085-PCB/trunk/Adafruit_BMP085.brd

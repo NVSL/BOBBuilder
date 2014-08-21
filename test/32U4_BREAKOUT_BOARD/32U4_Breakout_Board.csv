@@ -1,0 +1,2 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+32U4_Breakout_Board,Sparkfun,,,,TRUE,,,,,,svn,https://github.com/sparkfun/32U4_Breakout_Board,

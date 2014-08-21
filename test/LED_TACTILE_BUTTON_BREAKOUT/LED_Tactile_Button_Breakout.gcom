@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<component>
+  <name>LED Tactile Button Breakout</name>
+  <QA tested="false" completed="false"/>
+  <bobspec device-name="LED_TACTILE_BUTTON_BREAKOUT">
+    <downloadURL protocol="svn">https://github.com/sparkfun/LED_Tactile_Button_Breakout</downloadURL>
+  </bobspec>
+  <variant>
+    <supplier name="Sparkfun" price="1.50" updated="2014-08-21" part-number="10467"/>
+    <documentationURL>https://www.sparkfun.com/products/10467</documentationURL>
+    <longname>LED Tactile Button Breakout</longname>
+    <eagledevice name="LED_TACTILE_BUTTON_BREAKOUT"/>
+  </variant>
+</component>

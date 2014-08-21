@@ -1,0 +1,3 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+Arduino Pro Mini 328 - 5V/16MHz,Sparkfun,11113,$9.95,https://www.sparkfun.com/products/11113,TRUE,,,,,,svn,https://github.com/sparkfun/Arduino_Pro_Mini_328,
+Arduino Pro Mini 328 - 3.3V/8MHz,Sparkfun,11114,$9.95,https://www.sparkfun.com/products/11114,TRUE,,,,,,svn,https://github.com/sparkfun/Arduino_Pro_Mini_328,

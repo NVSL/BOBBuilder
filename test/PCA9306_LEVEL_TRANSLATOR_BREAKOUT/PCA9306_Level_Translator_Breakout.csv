@@ -1,0 +1,2 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+PCA9306 Level Translator Breakout,Sparkfun,11955,$6.95,https://www.sparkfun.com/products/11955,TRUE,,,,,,svn,https://github.com/sparkfun/PCA9306_Level_Translator_Breakout,

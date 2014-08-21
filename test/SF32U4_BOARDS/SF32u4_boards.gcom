@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<component>
+  <name>Pro Micro - 5V/16MHz</name>
+  <QA tested="false" completed="false"/>
+  <bobspec device-name="SF32U4_BOARDS">
+    <downloadURL protocol="svn">https://github.com/sparkfun/SF32u4_boards</downloadURL>
+  </bobspec>
+  <variant>
+    <supplier name="Sparkfun" price="19.95" updated="2014-08-21" part-number="12640"/>
+    <documentationURL>https://www.sparkfun.com/products/12640</documentationURL>
+    <longname>Pro Micro - 5V/16MHz</longname>
+    <eagledevice name="SF32U4_BOARDS"/>
+  </variant>
+  <variant>
+    <supplier name="Sparkfun" price="19.95" updated="2014-08-21" part-number="12587"/>
+    <documentationURL>https://www.sparkfun.com/products/12587</documentationURL>
+    <longname>Pro Micro - 3.3V/8MHz</longname>
+    <eagledevice name="SF32U4_BOARDS"/>
+  </variant>
+  <variant>
+    <supplier name="Sparkfun" price="24.95" updated="2014-08-21" part-number="12049"/>
+    <documentationURL>https://www.sparkfun.com/products/12049</documentationURL>
+    <longname>LilyPad Arduino USB - ATmega32U4 Board</longname>
+    <eagledevice name="SF32U4_BOARDS"/>
+  </variant>
+  <variant>
+    <supplier name="Sparkfun" price="34.95" updated="2014-08-21" part-number="11520"/>
+    <documentationURL>https://www.sparkfun.com/products/11520</documentationURL>
+    <longname>Fio v3 - ATmega32U4</longname>
+    <eagledevice name="SF32U4_BOARDS"/>
+  </variant>
+  <variant>
+    <supplier name="Sparkfun" price="49.95" updated="2014-08-21" part-number="11511"/>
+    <documentationURL>https://www.sparkfun.com/products/11511</documentationURL>
+    <longname>Makey Makey - Standard Kit</longname>
+    <eagledevice name="SF32U4_BOARDS"/>
+  </variant>
+</component>

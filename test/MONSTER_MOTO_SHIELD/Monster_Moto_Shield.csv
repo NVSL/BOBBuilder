@@ -1,0 +1,2 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+Monster Moto Shield,Sparkfun,10182,$69.95,https://www.sparkfun.com/products/10182,TRUE,,,,,,svn,https://github.com/sparkfun/Monster_Moto_Shield,

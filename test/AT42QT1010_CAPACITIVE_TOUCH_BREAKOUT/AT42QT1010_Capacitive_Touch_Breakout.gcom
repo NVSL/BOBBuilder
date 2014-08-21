@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<component>
+  <name>AT42QT1010_Capacitive_Touch_Breakout</name>
+  <QA tested="false" completed="false"/>
+  <bobspec device-name="AT42QT1010_CAPACITIVE_TOUCH_BREAKOUT">
+    <downloadURL protocol="svn">https://github.com/sparkfun/AT42QT1010_Capacitive_Touch_Breakout</downloadURL>
+  </bobspec>
+</component>

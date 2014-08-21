@@ -1,0 +1,2 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+Adafruit NeoPixel NeoMatrix 8x8 - 64 RGB LED Pixel Matrix,Adafruit,1487,$34.95,http://adafru.it/1487,TRUE,FALSE,FALSE,,,,svn,https://github.com/adafruit/Adafruit-NeoPixel-8x8-Matrix,Adafruit-NeoPixel-8x8-Matrix/trunk/Adafruit_NeoMatrix_8x8.brd

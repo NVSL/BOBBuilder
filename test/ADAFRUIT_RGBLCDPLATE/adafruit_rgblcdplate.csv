@@ -1,0 +1,4 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+Adafruit RGB Positive 16x2 LCD+Keypad Kit for Raspberry Pi,Adafruit,1109,$24.95,http://adafru.it/1109,TRUE,FALSE,FALSE,,,,svn,https://github.com/adafruit/Adafruit-16x2-LCD-Pi-Plate,Adafruit-16x2-LCD-Pi-Plate/trunk/adafruit_rgblcdplate.brd
+Adafruit RGB Negative 16x2 LCD+Keypad Kit for Raspberry Pi,Adafruit,1110,$24.95,http://adafru.it/1110,TRUE,FALSE,FALSE,,,,svn,https://github.com/adafruit/Adafruit-16x2-LCD-Pi-Plate,Adafruit-16x2-LCD-Pi-Plate/trunk/adafruit_rgblcdplate.brd
+Adafruit Blue&White 16x2 LCD+Keypad Kit for Raspberry Pi,Adafruit,1115,$19.95,http://adafru.it/1115,TRUE,FALSE,FALSE,,,,svn,https://github.com/adafruit/Adafruit-16x2-LCD-Pi-Plate,Adafruit-16x2-LCD-Pi-Plate/trunk/adafruit_rgblcdplate.brd

@@ -1,0 +1,2 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+NCP1402 - 5V Step-Up Breakout,Sparkfun,10968,$5.95,https://www.sparkfun.com/products/10968,TRUE,,,,,,svn,https://github.com/sparkfun/NCP1402-5V_Breakout,

@@ -1,0 +1,2 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+Stereo 20W Class D Audio Amplifier - MAX9744,Adafruit,1752,$19.95,http://adafru.it/1752,TRUE,FALSE,FALSE,,,,svn,https://github.com/adafruit/Adafruit-MAX9744-Amplifier-PCB,Adafruit-MAX9744-Amplifier-PCB/trunk/Adafruit MAX9744.brd

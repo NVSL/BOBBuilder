@@ -1,0 +1,4 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+"Adafruit 1.2"" 4-Digit 7-Segment Display w/I2C Backpack - Green",Adafruit,1268,$18.95,http://adafru.it/1268,,FALSE,TRUE,JP1,,N$8:IO,svn,https://github.com/adafruit/Adafruit-LED-Backpacks,Adafruit-LED-Backpacks/trunk/Adafruit 1.2in 7-segment.brd
+"Adafruit 1.2"" 4-Digit 7-Segment Display w/I2C Backpack - Yellow",Adafruit,1269,$17.50,http://adafru.it/1269,,FALSE,TRUE,JP1,,N$8:IO,svn,https://github.com/adafruit/Adafruit-LED-Backpacks,Adafruit-LED-Backpacks/trunk/Adafruit 1.2in 7-segment.brd
+"Adafruit 1.2"" 4-Digit 7-Segment Display w/I2C Backpack - Yellow",Adafruit,1270,$17.50,http://adafru.it/1270,,FALSE,TRUE,JP1,,N$8:IO,svn,https://github.com/adafruit/Adafruit-LED-Backpacks,Adafruit-LED-Backpacks/trunk/Adafruit 1.2in 7-segment.brd

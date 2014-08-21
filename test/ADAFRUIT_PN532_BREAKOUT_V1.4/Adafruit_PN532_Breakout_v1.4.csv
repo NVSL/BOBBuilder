@@ -1,0 +1,2 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+PN532 NFC/RFID controller breakout board,Adafruit,364,$39.95,http://adafru.it/364,TRUE,FALSE,FALSE,,,,svn,https://github.com/adafruit/Adafruit-PN532-RFID-NFC-Breakout,Adafruit-PN532-RFID-NFC-Breakout/trunk/Adafruit_PN532_Breakout_v1.4.brd

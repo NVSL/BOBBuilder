@@ -1,0 +1,4 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+Pro Micro - 5V/16MHz,Sparkfun,12640,$19.95,https://www.sparkfun.com/products/12640,TRUE,,,,,,svn,https://github.com/sparkfun/Pro_Micro,
+Pro Micro - 3.3V/8MHz,Sparkfun,12587,$19.95,https://www.sparkfun.com/products/12587,TRUE,,,,,,svn,https://github.com/sparkfun/Pro_Micro,
+Pro Micro - 5V/16MHz,Sparkfun,12640,$19.95,https://www.sparkfun.com/products/12640,TRUE,,,,,,svn,https://github.com/sparkfun/Pro_Micro,

@@ -1,0 +1,4 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+Bluefruit EZ-Link Shield - Bluetooth Arduino Serial & Programmer,Adafruit,1628,$24.95,http://adafru.it/1628,TRUE,FALSE,FALSE,,,,svn,https://github.com/adafruit/Adafruit-Bluefruit-Classic-PCBs,
+Bluefruit EZ-Key - 12 Input Bluetooth HID Keyboard Controller,Adafruit,1535,$19.95,http://adafru.it/1535,TRUE,FALSE,FALSE,,,,svn,https://github.com/adafruit/Adafruit-Bluefruit-Classic-PCBs,
+Bluefruit EZ-Link - Bluetooth Serial Link & Arduino Programmer,Adafruit,1588,$22.50,http://adafru.it/1588,TRUE,FALSE,FALSE,,,,svn,https://github.com/adafruit/Adafruit-Bluefruit-Classic-PCBs,

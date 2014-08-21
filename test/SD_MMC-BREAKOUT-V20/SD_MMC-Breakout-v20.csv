@@ -1,0 +1,2 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+SD/MMC Card Breakout,Sparkfun,12941,$9.95,https://www.sparkfun.com/products/12941,,FALSE,FALSE,JP5,U$5 U$4,,svn,https://github.com/sparkfun/SD-MMC_Breakout,SD-MMC_Breakout/trunk/Hardware/SD_MMC Breakout-v20.brd

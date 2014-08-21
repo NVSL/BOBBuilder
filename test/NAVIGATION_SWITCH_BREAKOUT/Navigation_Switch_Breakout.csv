@@ -1,0 +1,2 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+Surface Mount Navigation Switch Breakout,Sparkfun,8236,$6.95,https://www.sparkfun.com/products/8236,TRUE,,,,,,svn,https://github.com/sparkfun/Navigation_Switch_Breakout,

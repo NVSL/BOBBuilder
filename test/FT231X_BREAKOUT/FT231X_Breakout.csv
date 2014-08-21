@@ -1,0 +1,2 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+FT231X Breakout,Sparkfun,11736,$14.95,https://www.sparkfun.com/products/11736,TRUE,,,,,,svn,https://github.com/sparkfun/FT231X_Breakout,

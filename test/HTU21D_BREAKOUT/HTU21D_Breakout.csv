@@ -1,0 +1,2 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+HTU21D_Breakout,Sparkfun,,,,TRUE,,,,,,svn,https://github.com/sparkfun/HTU21D_Breakout,

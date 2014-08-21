@@ -1,0 +1,2 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+TXB0104_breakout,Sparkfun,,,,TRUE,,,,,,svn,https://github.com/sparkfun/TXB0104_breakout,

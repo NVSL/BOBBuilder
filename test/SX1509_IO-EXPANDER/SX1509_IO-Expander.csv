@@ -1,0 +1,2 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+SX1509 16 Output I/O Expander Breakout,Sparkfun,11502,$9.95,https://www.sparkfun.com/products/11502,TRUE,,,,,,svn,https://github.com/sparkfun/SX1509_IO-Expander,

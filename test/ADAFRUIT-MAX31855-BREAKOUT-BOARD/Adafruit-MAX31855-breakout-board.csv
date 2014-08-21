@@ -1,0 +1,2 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+Thermocouple Amplifier MAX31855 breakout board (MAX6675 upgrade),Adafruit,269,$14.95,http://adafru.it/269,TRUE,FALSE,FALSE,,,,svn,https://github.com/adafruit/Adafruit-MAX31855-breakout-board,

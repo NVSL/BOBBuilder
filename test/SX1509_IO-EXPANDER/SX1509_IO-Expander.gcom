@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<component>
+  <name>SX1509 16 Output I/O Expander Breakout</name>
+  <QA tested="false" completed="false"/>
+  <bobspec device-name="SX1509_IO-EXPANDER">
+    <downloadURL protocol="svn">https://github.com/sparkfun/SX1509_IO-Expander</downloadURL>
+  </bobspec>
+  <variant>
+    <supplier name="Sparkfun" price="9.95" updated="2014-08-21" part-number="11502"/>
+    <documentationURL>https://www.sparkfun.com/products/11502</documentationURL>
+    <longname>SX1509 16 Output I/O Expander Breakout</longname>
+    <eagledevice name="SX1509_IO-EXPANDER"/>
+  </variant>
+</component>

@@ -1,0 +1,2 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+Serial_7_Segment_Shield,Sparkfun,,,,TRUE,,,,,,svn,https://github.com/sparkfun/Serial_7_Segment_Shield,

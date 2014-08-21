@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<component>
+  <name>Bi-Color (Red/Green) 24-Bar Bargraph w/I2C Backpack Kit</name>
+  <QA tested="false"/>
+  <bobspec device-name="ADAFRUIT-BICOLOR-BARGRAPH-24">
+    <connector name="CN1"/>
+    <downloadURL protocol="svn">https://github.com/adafruit/Adafruit-LED-Backpacks</downloadURL>
+    <brdfile upside-down="TRUE">ext/Adafruit-LED-Backpacks/trunk/Adafruit bicolor bargraph 24.brd</brdfile>
+    <schfile>ext/Adafruit-LED-Backpacks/trunk/Adafruit bicolor bargraph 24.sch</schfile>
+  </bobspec>
+  <variant>
+    <supplier name="Adafruit" price="9.95" updated="2014-08-21" part-number="1721"/>
+    <documentationURL>http://adafru.it/1721</documentationURL>
+    <longname>Bi-Color (Red/Green) 24-Bar Bargraph w/I2C Backpack Kit</longname>
+    <eagledevice name="ADAFRUIT-BICOLOR-BARGRAPH-24"/>
+  </variant>
+</component>

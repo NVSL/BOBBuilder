@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<component>
+  <name>Triple Axis Accelerometer Breakout - ADXL345</name>
+  <QA tested="false" completed="false"/>
+  <bobspec device-name="ADXL345_BREAKOUT">
+    <downloadURL protocol="svn">https://github.com/sparkfun/ADXL345_Breakout</downloadURL>
+  </bobspec>
+  <variant>
+    <supplier name="Sparkfun" price="17.95" updated="2014-08-21" part-number="9836"/>
+    <documentationURL>https://www.sparkfun.com/products/9836</documentationURL>
+    <longname>Triple Axis Accelerometer Breakout - ADXL345</longname>
+    <eagledevice name="ADXL345_BREAKOUT"/>
+  </variant>
+</component>

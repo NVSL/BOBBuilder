@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<component>
+  <name>Adafruit Motor/Stepper/Servo Shield for Arduino v2 Kit</name>
+  <QA tested="false" completed="false"/>
+  <bobspec device-name="ADAFRUIT-MOTOR-SHIELD-V2">
+    <downloadURL protocol="svn">https://github.com/adafruit/Adafruit-Motor-Shield-V2-PCB</downloadURL>
+    <brdfile>ext/Adafruit-Motor-Shield-V2-PCB/trunk/Adafruit Motor Shield v2.brd</brdfile>
+    <schfile>ext/Adafruit-Motor-Shield-V2-PCB/trunk/Adafruit Motor Shield v2.sch</schfile>
+  </bobspec>
+  <variant>
+    <supplier name="Adafruit" price="19.95" updated="2014-08-21" part-number="1438"/>
+    <documentationURL>http://adafru.it/1438</documentationURL>
+    <longname>Adafruit Motor/Stepper/Servo Shield for Arduino v2 Kit</longname>
+    <eagledevice name="ADAFRUIT-MOTOR-SHIELD-V2"/>
+  </variant>
+</component>

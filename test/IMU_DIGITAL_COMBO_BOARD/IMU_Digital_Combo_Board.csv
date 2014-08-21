@@ -1,0 +1,2 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+IMU_Digital_Combo_Board,Sparkfun,,,,TRUE,,,,,,svn,https://github.com/sparkfun/IMU_Digital_Combo_Board,

@@ -1,0 +1,3 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+GPS Breakout,Sparkfun,11818,$3.95,https://www.sparkfun.com/products/11818,TRUE,,,,,,svn,https://github.com/sparkfun/GPS_Breakout,
+GPS Receiver - GP-635T (50 Channel),Sparkfun,11571,$39.95,https://www.sparkfun.com/products/11571,TRUE,,,,,,svn,https://github.com/sparkfun/GPS_Breakout,

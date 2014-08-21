@@ -1,0 +1,2 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+Triple Axis Accelerometer and Gyro Breakout - MPU-6050,Sparkfun,11028,$39.95,https://www.sparkfun.com/products/11028,TRUE,,,,,,svn,https://github.com/sparkfun/MPU-6050_Breakout,

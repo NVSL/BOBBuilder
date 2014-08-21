@@ -1,0 +1,2 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+UV Sensor Breakout - ML8511,Sparkfun,12705,$12.95,https://www.sparkfun.com/products/12705,TRUE,,,,,,svn,https://github.com/sparkfun/ML8511_Breakout,

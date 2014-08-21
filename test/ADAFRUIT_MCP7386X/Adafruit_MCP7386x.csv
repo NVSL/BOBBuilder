@@ -1,0 +1,2 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+USB/DC  Lithium Polymer battery charger 5-12V,Adafruit,280,$17.95,http://adafru.it/280,TRUE,FALSE,FALSE,,,,svn,https://github.com/adafruit/Adafruit-USB-DC-LiPoly-Charger,Adafruit-USB-DC-LiPoly-Charger/trunk/Adafruit_MCP7386x.brd

@@ -1,0 +1,2 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+Humidity and Temperature Sensor - RHT03,Sparkfun,10167,$9.95,https://www.sparkfun.com/products/10167,TRUE,,,,,,svn,https://github.com/sparkfun/RHT03,

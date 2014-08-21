@@ -1,0 +1,5 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+Touch_Shield,Sparkfun,12013,,https://www.sparkfun.com/products/12013,TRUE,,,,,,svn,https://github.com/sparkfun/Touch_Shield,
+Touch Shield,Sparkfun,10508,$14.95,https://www.sparkfun.com/products/10508,TRUE,,,,,,svn,https://github.com/sparkfun/Touch_Shield,
+Touch Sense Shield Retail,Sparkfun,10774,$15.95,https://www.sparkfun.com/products/10774,TRUE,,,,,,svn,https://github.com/sparkfun/Touch_Shield,
+Touch Shield,Sparkfun,10508,$14.95,https://www.sparkfun.com/products/10508,TRUE,,,,,,svn,https://github.com/sparkfun/Touch_Shield,

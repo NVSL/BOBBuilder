@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<component>
+  <name>Adafruit RGB Positive 16x2 LCD+Keypad Kit for Raspberry Pi</name>
+  <QA tested="false" completed="false"/>
+  <bobspec device-name="ADAFRUIT_RGBLCDPLATE">
+    <downloadURL protocol="svn">https://github.com/adafruit/Adafruit-16x2-LCD-Pi-Plate</downloadURL>
+    <brdfile>ext/Adafruit-16x2-LCD-Pi-Plate/trunk/adafruit_rgblcdplate.brd</brdfile>
+    <schfile>ext/Adafruit-16x2-LCD-Pi-Plate/trunk/adafruit_rgblcdplate.sch</schfile>
+  </bobspec>
+  <variant>
+    <supplier name="Adafruit" price="24.95" updated="2014-08-21" part-number="1109"/>
+    <documentationURL>http://adafru.it/1109</documentationURL>
+    <longname>Adafruit RGB Positive 16x2 LCD+Keypad Kit for Raspberry Pi</longname>
+    <eagledevice name="ADAFRUIT_RGBLCDPLATE"/>
+  </variant>
+  <variant>
+    <supplier name="Adafruit" price="24.95" updated="2014-08-21" part-number="1110"/>
+    <documentationURL>http://adafru.it/1110</documentationURL>
+    <longname>Adafruit RGB Negative 16x2 LCD+Keypad Kit for Raspberry Pi</longname>
+    <eagledevice name="ADAFRUIT_RGBLCDPLATE"/>
+  </variant>
+  <variant>
+    <supplier name="Adafruit" price="19.95" updated="2014-08-21" part-number="1115"/>
+    <documentationURL>http://adafru.it/1115</documentationURL>
+    <longname>Adafruit Blue&amp;White 16x2 LCD+Keypad Kit for Raspberry Pi</longname>
+    <eagledevice name="ADAFRUIT_RGBLCDPLATE"/>
+  </variant>
+</component>

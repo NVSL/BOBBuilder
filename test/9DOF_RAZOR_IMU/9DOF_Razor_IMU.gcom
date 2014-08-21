@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<component>
+  <name>9DOF_Razor_IMU</name>
+  <QA tested="false" completed="false"/>
+  <bobspec device-name="9DOF_RAZOR_IMU">
+    <downloadURL protocol="svn">https://github.com/sparkfun/9DOF_Razor_IMU</downloadURL>
+  </bobspec>
+</component>

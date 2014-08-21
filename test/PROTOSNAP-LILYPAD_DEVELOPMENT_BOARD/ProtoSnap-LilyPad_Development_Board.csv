@@ -1,0 +1,3 @@
+Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
+ProtoSnap - LilyPad Development Board,Sparkfun,11262,$59.95,https://www.sparkfun.com/products/11262,TRUE,,,,,,svn,https://github.com/sparkfun/ProtoSnap-LilyPad_Development_Board,
+ProtoSnap - LilyPad Development Board Retail,Sparkfun,11261,$59.95,https://www.sparkfun.com/products/11261,TRUE,,,,,,svn,https://github.com/sparkfun/ProtoSnap-LilyPad_Development_Board,

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<component>
+  <name>Adafruit 1.8" 18-bit Color TFT Shield w/microSD and Joystick</name>
+  <QA tested="false" completed="false"/>
+  <bobspec device-name="ADAFRUIT-1.8-TFTSHIELD">
+    <downloadURL protocol="svn">https://github.com/adafruit/Adafruit-1.8-TFT-Shield</downloadURL>
+    <brdfile>ext/Adafruit-1.8-TFT-Shield/trunk/Adafruit 1.8 TFTshield.brd</brdfile>
+    <schfile>ext/Adafruit-1.8-TFT-Shield/trunk/Adafruit 1.8 TFTshield.sch</schfile>
+  </bobspec>
+  <variant>
+    <supplier name="Adafruit" price="34.95" updated="2014-08-21" part-number="802"/>
+    <documentationURL>http://adafru.it/802</documentationURL>
+    <longname>Adafruit 1.8" 18-bit Color TFT Shield w/microSD and Joystick</longname>
+    <eagledevice name="ADAFRUIT-1.8-TFTSHIELD"/>
+  </variant>
+</component>

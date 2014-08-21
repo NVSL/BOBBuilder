@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<component>
+  <name>USB_Type_A_Female_Breakout</name>
+  <QA tested="false" completed="false"/>
+  <bobspec device-name="USB_TYPE_A_FEMALE_BREAKOUT">
+    <downloadURL protocol="svn">https://github.com/sparkfun/USB_Type_A_Female_Breakout</downloadURL>
+  </bobspec>
+</component>
