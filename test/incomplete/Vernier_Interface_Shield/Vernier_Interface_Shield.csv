@@ -1,2 +1,0 @@
-Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
-Vernier_Interface_Shield,Sparkfun,,,,TRUE,,,,,,svn,https://github.com/sparkfun/Vernier_Interface_Shield,

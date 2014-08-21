@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<component>
-  <name>Tri-Color_Breakout</name>
-  <QA tested="false" completed="false"/>
-  <keyname>Tri-Color_Breakout</keyname>
-  <bobspec device-name="TRI-COLOR_BREAKOUT">
-    <downloadURL protocol="svn">https://github.com/sparkfun/Tri-Color_Breakout</downloadURL>
-  </bobspec>
-</component>

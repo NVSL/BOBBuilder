@@ -1,2 +1,0 @@
-Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
-9DOF_Razor_IMU,Sparkfun,,,,TRUE,,,,,,svn,https://github.com/sparkfun/9DOF_Razor_IMU,

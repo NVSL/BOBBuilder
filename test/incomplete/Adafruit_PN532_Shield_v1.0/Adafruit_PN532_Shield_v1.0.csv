@@ -1,2 +1,0 @@
-Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
-Adafruit PN532 NFC/RFID Controller Shield for Arduino + Extras,Adafruit,789,$39.95,http://adafru.it/789,TRUE,FALSE,FALSE,,,,svn,https://github.com/adafruit/Adafruit-PN532-RFID-NFC-Shield,Adafruit-PN532-RFID-NFC-Shield/trunk/Adafruit_PN532_Shield_v1.0.brd

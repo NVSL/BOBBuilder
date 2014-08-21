@@ -1,2 +1,0 @@
-Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
-"Adafruit 1.8"" 18-bit Color TFT Shield w/microSD and Joystick",Adafruit,802,$34.95,http://adafru.it/802,TRUE,FALSE,FALSE,,,,svn,https://github.com/adafruit/Adafruit-1.8-TFT-Shield,Adafruit-1.8-TFT-Shield/trunk/Adafruit 1.8 TFTshield.brd

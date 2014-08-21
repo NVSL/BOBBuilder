@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<component>
-  <name>MMA8452_Accelerometer</name>
-  <QA tested="false" completed="false"/>
-  <keyname>MMA8452_Accelerometer</keyname>
-  <bobspec device-name="MMA8452_ACCELEROMETER">
-    <downloadURL protocol="svn">https://github.com/sparkfun/MMA8452_Accelerometer</downloadURL>
-  </bobspec>
-</component>

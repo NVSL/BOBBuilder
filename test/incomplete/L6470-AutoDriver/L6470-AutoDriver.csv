@@ -1,2 +1,0 @@
-Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
-AutoDriver - Stepper Motor Driver,Sparkfun,11611,$34.95,https://www.sparkfun.com/products/11611,TRUE,,,,,,svn,https://github.com/sparkfun/L6470-AutoDriver,

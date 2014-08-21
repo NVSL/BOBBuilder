@@ -1,2 +1,0 @@
-Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
-"OLED Breakout Board - 16-bit Color 1.27"" w/microSD holder",Adafruit,1673,$34.95,http://adafru.it/1673,TRUE,FALSE,FALSE,,,,svn,https://github.com/adafruit/Adafruit-1.27inch-Color-OLED-Breakout-PCB,Adafruit-1.27inch-Color-OLED-Breakout-PCB/trunk/Adafruit 1.27 128x96 RGB OLED.brd

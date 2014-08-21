@@ -1,2 +1,0 @@
-Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
-MiniGen - Pro Mini Signal Generator Shield,Sparkfun,11420,$29.95,https://www.sparkfun.com/products/11420,TRUE,,,,,,svn,https://github.com/sparkfun/MiniGen,

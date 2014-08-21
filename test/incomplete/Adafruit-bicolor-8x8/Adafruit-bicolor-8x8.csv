@@ -1,2 +1,0 @@
-Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
-Adafruit Bicolor LED Square Pixel Matrix with I2C Backpack,Adafruit,902,$15.95,http://adafru.it/902,,FALSE,TRUE,CN1,,,svn,https://github.com/adafruit/Adafruit-LED-Backpacks,Adafruit-LED-Backpacks/trunk/Adafruit bicolor 8x8.brd

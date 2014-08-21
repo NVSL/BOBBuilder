@@ -1,2 +1,0 @@
-Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
-Solder-able Breadboard - Mini,Sparkfun,12702,$2.95,https://www.sparkfun.com/products/12702,TRUE,,,,,,svn,https://github.com/sparkfun/Solderable_Breadboard_Mini,

@@ -1,2 +1,0 @@
-Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
-Breakout Board for AD5330 Parallel 8-Bit DAC,Sparkfun,12082,$9.95,https://www.sparkfun.com/products/12082,TRUE,,,,,,svn,https://github.com/sparkfun/AD5330_Breakout,

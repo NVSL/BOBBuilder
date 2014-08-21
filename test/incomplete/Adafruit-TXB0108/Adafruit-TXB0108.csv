@@ -1,2 +1,0 @@
-Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
-8-channel Bi-directional Logic Level Converter,Adafruit,395,$8.00,http://adafru.it/395,TRUE,FALSE,FALSE,,,,svn,https://github.com/adafruit/Adafruit-TXB0108-PCB,Adafruit-TXB0108-PCB/trunk/Adafruit TXB0108.brd

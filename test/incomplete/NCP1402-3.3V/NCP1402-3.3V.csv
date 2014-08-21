@@ -1,2 +1,0 @@
-Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
-NCP1402 - 3.3V Step-Up Breakout,Sparkfun,10967,$5.95,https://www.sparkfun.com/products/10967,TRUE,,,,,,svn,https://github.com/sparkfun/NCP1402-3.3V,

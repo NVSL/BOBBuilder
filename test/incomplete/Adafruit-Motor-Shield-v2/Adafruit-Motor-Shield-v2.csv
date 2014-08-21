@@ -1,2 +1,0 @@
-Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
-Adafruit Motor/Stepper/Servo Shield for Arduino v2 Kit,Adafruit,1438,$19.95,http://adafru.it/1438,TRUE,FALSE,FALSE,,,,svn,https://github.com/adafruit/Adafruit-Motor-Shield-V2-PCB,Adafruit-Motor-Shield-V2-PCB/trunk/Adafruit Motor Shield v2.brd

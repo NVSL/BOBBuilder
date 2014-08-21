@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<component>
-  <name>MPU-9150_Breakout</name>
-  <QA tested="false" completed="false"/>
-  <keyname>MPU-9150_Breakout</keyname>
-  <bobspec device-name="MPU-9150_BREAKOUT">
-    <downloadURL protocol="svn">https://github.com/sparkfun/MPU-9150_Breakout</downloadURL>
-  </bobspec>
-</component>

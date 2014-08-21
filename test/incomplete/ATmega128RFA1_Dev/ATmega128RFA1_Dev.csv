@@ -1,2 +1,0 @@
-Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
-ATmega128RFA1_Dev,Sparkfun,,,,TRUE,,,,,,svn,https://github.com/sparkfun/ATmega128RFA1_Dev,

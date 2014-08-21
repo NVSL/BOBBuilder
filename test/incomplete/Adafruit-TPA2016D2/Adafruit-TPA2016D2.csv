@@ -1,2 +1,0 @@
-Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
-Stereo 2.8W Class D Audio Amplifier - I2C Control AGC - TPA2016,Adafruit,1712,$9.95,http://adafru.it/1712,TRUE,FALSE,FALSE,,,,svn,https://github.com/adafruit/Adafruit-TPA2016-PCB,Adafruit-TPA2016-PCB/trunk/Adafruit TPA2016D2.brd

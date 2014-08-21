@@ -1,4 +1,0 @@
-Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
-ADXL335 - 5V ready triple-axis accelerometer (+-3g analog out),Adafruit,163,$14.95,http://adafru.it/163,TRUE,FALSE,FALSE,,,,svn,https://github.com/adafruit/Adafruit-Analog-Accelerometers-PCBs,
-ADXL326 - 5V ready triple-axis accelerometer (+-16g analog out),Adafruit,1018,$17.95,http://adafru.it/1018,TRUE,FALSE,FALSE,,,,svn,https://github.com/adafruit/Adafruit-Analog-Accelerometers-PCBs,
-ADXL377 - High-G Triple-Axis Accelerometer (+-200g Analog Out),Adafruit,1413,$24.95,http://adafru.it/1413,TRUE,FALSE,FALSE,,,,svn,https://github.com/adafruit/Adafruit-Analog-Accelerometers-PCBs,

@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<component>
-  <name>HTU21D_Breakout</name>
-  <QA tested="false" completed="false"/>
-  <keyname>HTU21D_Breakout</keyname>
-  <bobspec device-name="HTU21D_BREAKOUT">
-    <downloadURL protocol="svn">https://github.com/sparkfun/HTU21D_Breakout</downloadURL>
-  </bobspec>
-</component>

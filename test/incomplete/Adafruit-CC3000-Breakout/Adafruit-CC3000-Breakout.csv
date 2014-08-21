@@ -1,3 +1,0 @@
-Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
-Adafruit CC3000 WiFi Breakout with uFL Connector for Ext Antenna,Adafruit,1510,$34.95,http://adafru.it/1510,TRUE,FALSE,FALSE,,,,svn,https://github.com/adafruit/Adafruit-CC3000-Breakout-PCB,Adafruit-CC3000-Breakout-PCB/trunk/Adafruit CC3000 Breakout.brd
-Adafruit CC3000 WiFi Breakout with Onboard Ceramic Antenna,Adafruit,1469,$34.95,http://adafru.it/1469,TRUE,FALSE,FALSE,,,,svn,https://github.com/adafruit/Adafruit-CC3000-Breakout-PCB,Adafruit-CC3000-Breakout-PCB/trunk/Adafruit CC3000 Breakout.brd

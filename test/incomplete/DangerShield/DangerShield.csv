@@ -1,2 +1,0 @@
-Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
-Danger Shield,Sparkfun,11649,$29.95,https://www.sparkfun.com/products/11649,TRUE,,,,,,svn,https://github.com/sparkfun/DangerShield,

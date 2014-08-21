@@ -1,2 +1,0 @@
-Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
-Adafruit 12-Channel 16-bit PWM LED Driver - SPI Interface,Adafruit,1455,$7.50,http://adafru.it/1455,TRUE,FALSE,FALSE,,,,svn,https://github.com/adafruit/Adafruit-TLC59711-Breakout-PCB,Adafruit-TLC59711-Breakout-PCB/trunk/adafruit tlc59711 v1.brd

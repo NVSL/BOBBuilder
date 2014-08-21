@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<component>
-  <name>MPL3115A2_Breakout</name>
-  <QA tested="false" completed="false"/>
-  <keyname>MPL3115A2_Breakout</keyname>
-  <bobspec device-name="MPL3115A2_BREAKOUT">
-    <downloadURL protocol="svn">https://github.com/sparkfun/MPL3115A2_Breakout</downloadURL>
-  </bobspec>
-</component>

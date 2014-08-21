@@ -1,2 +1,0 @@
-Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
-Bluefruit LE - Bluetooth Low Energy (BLE 4.0) - nRF8001 Breakout,Adafruit,1697,$19.95,http://adafru.it/1697,TRUE,FALSE,FALSE,,,,svn,https://github.com/adafruit/Adafruit-Bluefruit-LE-nRF8001-PCB,Adafruit-Bluefruit-LE-nRF8001-PCB/trunk/Adafruit Bluefruit LE nRF8001.brd

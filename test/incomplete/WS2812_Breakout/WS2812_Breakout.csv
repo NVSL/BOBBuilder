@@ -1,2 +1,0 @@
-Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
-WS2812 RGB LED Breakout,Sparkfun,11820,$2.95,https://www.sparkfun.com/products/11820,TRUE,,,,,,svn,https://github.com/sparkfun/WS2812_Breakout,

@@ -1,2 +1,0 @@
-Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
-Monochrome 128x32 SPI OLED graphic display,Adafruit,661,$17.50,http://adafru.it/661,TRUE,FALSE,FALSE,,,,svn,https://github.com/adafruit/Adafruit-128x32-SPI-OLED-breakout-board-PCB,Adafruit-128x32-SPI-OLED-breakout-board-PCB/trunk/Adafruit OLED 128x32 Mono.brd

@@ -1,2 +1,0 @@
-Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
-Serial Enabled LCD Backpack,Sparkfun,258,$16.95,https://www.sparkfun.com/products/258,TRUE,,,,,,svn,https://github.com/sparkfun/Serial_Enabled_LCD_Backpack,

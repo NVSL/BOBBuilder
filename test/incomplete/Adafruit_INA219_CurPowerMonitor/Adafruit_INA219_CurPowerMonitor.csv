@@ -1,2 +1,0 @@
-Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
-INA219  High Side DC Current Sensor Breakout - 26V 3.2A Max,Adafruit,904,$9.95,http://adafru.it/904,TRUE,FALSE,FALSE,,,,svn,https://github.com/adafruit/Adafruit-INA219-Current-Sensor-PCB,Adafruit-INA219-Current-Sensor-PCB/trunk/Adafruit_INA219_CurPowerMonitor.brd

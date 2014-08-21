@@ -1,2 +1,0 @@
-Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
-QRE1113_Line_Sensor-Analog,Sparkfun,,,,TRUE,,,,,,svn,https://github.com/sparkfun/QRE1113_Line_Sensor-Analog,

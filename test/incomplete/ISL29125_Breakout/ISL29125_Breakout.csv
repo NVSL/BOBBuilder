@@ -1,2 +1,0 @@
-Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
-ISL29125 RGB Light Sensor,Sparkfun,12829,$7.95,https://www.sparkfun.com/products/12829,TRUE,,,,,,svn,https://github.com/sparkfun/ISL29125_Breakout,

@@ -1,2 +1,0 @@
-Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
-Tilt-a-Whirl Breakout - RPI-1031,Sparkfun,12011,$5.95,https://www.sparkfun.com/products/12011,TRUE,,,,,,svn,https://github.com/sparkfun/Tilt-a-Whirl_Breakout,

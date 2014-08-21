@@ -1,2 +1,0 @@
-Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
-DS1307 Real Time Clock breakout board kit,Adafruit,264,$9.00,http://adafru.it/264,,FALSE,FALSE,JP2,,,svn,https://github.com/adafruit/DS1307-breakout-board,DS1307-breakout-board/trunk/ds1307.brd

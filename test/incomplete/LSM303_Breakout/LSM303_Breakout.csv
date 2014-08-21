@@ -1,2 +1,0 @@
-Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
-LSM303_Breakout,Sparkfun,10888,,https://www.sparkfun.com/products/10888,TRUE,,,,,,svn,https://github.com/sparkfun/LSM303_Breakout,

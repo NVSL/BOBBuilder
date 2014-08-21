@@ -1,2 +1,0 @@
-Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
-Triple-axis Accelerometer+Magnetometer (Compass) Board - LSM303,Adafruit,1120,$14.95,http://adafru.it/1120,TRUE,FALSE,FALSE,,,,svn,https://github.com/adafruit/Adafruit-LSM303-PCB,Adafruit-LSM303-PCB/trunk/Adafruit_LSM303DLHC.brd

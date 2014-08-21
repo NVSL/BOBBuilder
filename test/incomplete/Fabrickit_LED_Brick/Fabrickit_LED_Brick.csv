@@ -1,2 +1,0 @@
-Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
-Fabrickit_LED_Brick,Sparkfun,10412,,https://www.sparkfun.com/products/10412,TRUE,,,,,,svn,https://github.com/sparkfun/Fabrickit_LED_Brick,

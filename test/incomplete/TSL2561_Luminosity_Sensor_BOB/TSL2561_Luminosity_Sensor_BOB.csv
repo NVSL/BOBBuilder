@@ -1,2 +1,0 @@
-Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
-Luminosity Sensor Breakout - TSL2561,Sparkfun,12055,$5.95,https://www.sparkfun.com/products/12055,TRUE,,,,,,svn,https://github.com/sparkfun/TSL2561_Luminosity_Sensor_BOB,

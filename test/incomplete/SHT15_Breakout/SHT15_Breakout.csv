@@ -1,2 +1,0 @@
-Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
-Humidity and Temperature Sensor Breakout - SHT15,Sparkfun,8257,$41.95,https://www.sparkfun.com/products/8257,TRUE,,,,,,svn,https://github.com/sparkfun/SHT15_Breakout,

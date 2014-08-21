@@ -1,2 +1,0 @@
-Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
-Electric Imp Shield,Sparkfun,11401,$19.95,https://www.sparkfun.com/products/11401,TRUE,,,,,,svn,https://github.com/sparkfun/Electric_Imp_Shield,

@@ -1,2 +1,0 @@
-Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
-Fio v3 - ATmega32U4,Sparkfun,11520,$34.95,https://www.sparkfun.com/products/11520,TRUE,,,,,,svn,https://github.com/sparkfun/Fio_v3,

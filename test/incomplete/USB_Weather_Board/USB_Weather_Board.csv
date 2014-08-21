@@ -1,2 +1,0 @@
-Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
-Weather Shield,Sparkfun,12081,$39.95,https://www.sparkfun.com/products/12081,TRUE,,,,,,svn,https://github.com/sparkfun/USB_Weather_Board,

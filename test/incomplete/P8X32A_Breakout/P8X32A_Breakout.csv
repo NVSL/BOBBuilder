@@ -1,2 +1,0 @@
-Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
-P8X32A_Breakout,Sparkfun,11525,,,TRUE,,,,,,svn,https://github.com/sparkfun/P8X32A_Breakout,

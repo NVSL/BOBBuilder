@@ -1,2 +1,0 @@
-Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
-Adafruit 16-Channel 12-bit PWM/Servo Shield - I2C interface,Adafruit,1411,$17.50,http://adafru.it/1411,TRUE,FALSE,FALSE,,,,svn,https://github.com/adafruit/Adafruit-16-channel-PWM-Servo-Shield,Adafruit-16-channel-PWM-Servo-Shield/trunk/Adafruit PWM Servo Shield.brd

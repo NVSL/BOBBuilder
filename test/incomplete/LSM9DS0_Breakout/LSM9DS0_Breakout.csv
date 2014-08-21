@@ -1,2 +1,0 @@
-Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
-9 Degrees of Freedom IMU Breakout - LSM9DS0,Sparkfun,12636,$29.95,https://www.sparkfun.com/products/12636,TRUE,,,,,,svn,https://github.com/sparkfun/LSM9DS0_Breakout,

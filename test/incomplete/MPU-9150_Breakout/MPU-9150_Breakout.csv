@@ -1,2 +1,0 @@
-Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
-MPU-9150_Breakout,Sparkfun,,,,TRUE,,,,,,svn,https://github.com/sparkfun/MPU-9150_Breakout,

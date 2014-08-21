@@ -1,2 +1,0 @@
-Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
-Analog Output K-Type Thermocouple Amplifier - AD8495 Breakout,Adafruit,1778,$11.95,http://adafru.it/1778,TRUE,FALSE,FALSE,,,,svn,https://github.com/adafruit/Adafruit-AD8495-Breakout-PCB,Adafruit-AD8495-Breakout-PCB/trunk/Adafruit AD849x_Thermo.brd

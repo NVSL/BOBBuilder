@@ -1,2 +1,0 @@
-Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
-Pressure Sensor - MS5803-14BA Breakout,Sparkfun,12909,$59.95,https://www.sparkfun.com/products/12909,,FALSE,FALSE,JP1,,,svn,https://github.com/sparkfun/MS5803-14BA_Breakout,MS5803-14BA_Breakout/trunk/Hardware/MS5803-14BA_Breakout.brd

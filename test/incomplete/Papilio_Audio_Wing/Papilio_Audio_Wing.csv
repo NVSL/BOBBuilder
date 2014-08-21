@@ -1,2 +1,0 @@
-Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
-Papilio Audio Wing,Sparkfun,11568,$5.56,https://www.sparkfun.com/products/11568,TRUE,,,,,,svn,https://github.com/sparkfun/Papilio_Audio_Wing,

@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<component>
-  <name>CAN-Bus_Shield</name>
-  <QA tested="false" completed="false"/>
-  <keyname>CAN-Bus_Shield</keyname>
-  <bobspec device-name="CAN-BUS_SHIELD">
-    <downloadURL protocol="svn">https://github.com/sparkfun/CAN-Bus_Shield</downloadURL>
-  </bobspec>
-</component>

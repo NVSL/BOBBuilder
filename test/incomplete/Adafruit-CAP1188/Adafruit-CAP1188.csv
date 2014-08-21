@@ -1,2 +1,0 @@
-Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
-CAP1188 - 8-Key Capacitive Touch Sensor Breakout - I2C or SPI,Adafruit,1602,$7.95,http://adafru.it/1602,TRUE,FALSE,FALSE,,,,svn,https://github.com/adafruit/Adafruit-CAP1188-PCB,Adafruit-CAP1188-PCB/trunk/Adafruit CAP1188.brd

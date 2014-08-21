@@ -1,2 +1,0 @@
-Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
-Adafruit NeoPixel Shield for Arduino - 40 RGB LED Pixel Matrix,Adafruit,1430,$27.95,http://adafru.it/1430,TRUE,FALSE,FALSE,,,,svn,https://github.com/adafruit/Adafruit-NeoPixel-Shield-PCB,Adafruit-NeoPixel-Shield-PCB/trunk/Adafruit NeoPixel Shield v2.brd

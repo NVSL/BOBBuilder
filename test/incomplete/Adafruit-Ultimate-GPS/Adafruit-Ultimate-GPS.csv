@@ -1,2 +1,0 @@
-Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
-Adafruit Ultimate GPS Breakout - 66 channel w/10 Hz updates,Adafruit,746,$39.95,http://adafru.it/746,,FALSE,FALSE,JP1,,,svn,https://github.com/adafruit/Adafruit-Ultimate-GPS,Adafruit-Ultimate-GPS/trunk/Adafruit Ultimate GPS.brd

@@ -1,3 +1,0 @@
-Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
-RFID Reader Breakout,Sparkfun,13030,$1.95,https://www.sparkfun.com/products/13030,TRUE,,,,,,svn,https://github.com/sparkfun/RFID_Reader_Breakout,
-2mm 10pin XBee Socket,Sparkfun,8272,$0.50,https://www.sparkfun.com/products/8272,TRUE,,,,,,svn,https://github.com/sparkfun/RFID_Reader_Breakout,

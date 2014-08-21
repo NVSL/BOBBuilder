@@ -1,2 +1,0 @@
-Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
-Analog 2-axis Thumb Joystick with Select Button + Breakout Board,Adafruit,512,$5.95,http://adafru.it/512,,FALSE,FALSE,JP1,,,svn,https://github.com/adafruit/2-axis-joystick-breakout-board-with-mounting-holes,2-axis-joystick-breakout-board-with-mounting-holes/trunk/joystick.brd

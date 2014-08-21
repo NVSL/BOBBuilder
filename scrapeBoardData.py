@@ -9,7 +9,6 @@ import time
 import StringIO
 import unicodedata
 
-
 from lxml import html
 from lxml import etree
 
@@ -17,7 +16,6 @@ parser = argparse.ArgumentParser(description="Tool for auto-generating packages 
 parser.add_argument("-db", required=True, type=str, nargs=1, dest='dbFile', help="Break out board database file")
 parser.add_argument("--productid", required=False, type=str, nargs=1, dest='id', help="filter on a single product id")
 parser.add_argument("--force", required=False, dest='rescrape', action='store_true', help="Overwrite existing package")
-
 
 args = parser.parse_args()
 

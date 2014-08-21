@@ -1,2 +1,0 @@
-Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
-Logic Level Converter Bi-Directional,Sparkfun,12009,$2.95,https://www.sparkfun.com/products/12009,TRUE,,,,,,svn,https://github.com/sparkfun/Logic_Level_Converter,

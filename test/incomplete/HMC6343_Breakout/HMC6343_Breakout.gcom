@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<component>
-  <name>HMC6343_Breakout</name>
-  <QA tested="false" completed="false"/>
-  <keyname>HMC6343_Breakout</keyname>
-  <bobspec device-name="HMC6343_BREAKOUT">
-    <downloadURL protocol="svn">https://github.com/sparkfun/HMC6343_Breakout</downloadURL>
-  </bobspec>
-</component>

@@ -1,2 +1,0 @@
-Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
-"Monochrome 1.3"" 128x64 OLED graphic display",Adafruit,938,$24.50,http://adafru.it/938,TRUE,FALSE,FALSE,,,,svn,https://github.com/adafruit/Adafruit-1.3inch-128x64-Mono-OLED-PCB,Adafruit-1.3inch-128x64-Mono-OLED-PCB/trunk/Adafruit_1.3_128x64_OLED.brd

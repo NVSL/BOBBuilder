@@ -1,2 +1,0 @@
-Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
-Adafruit Micro Lipo - USB LiIon/LiPoly charger,Adafruit,1304,$5.95,http://adafru.it/1304,TRUE,FALSE,FALSE,,,,svn,https://github.com/adafruit/Adafruit-MicroLipo-PCB,

@@ -1,2 +1,0 @@
-Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
-Triple Axis Accelerometer Breakout - ADXL345,Sparkfun,9836,$17.95,https://www.sparkfun.com/products/9836,TRUE,,,,,,svn,https://github.com/sparkfun/ADXL345_Breakout,

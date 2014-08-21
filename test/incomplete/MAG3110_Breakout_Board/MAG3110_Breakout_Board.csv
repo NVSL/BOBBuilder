@@ -1,3 +1,0 @@
-Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
-Triple Axis Magnetometer Breakout - MAG3110,Sparkfun,12670,$14.95,https://www.sparkfun.com/products/12670,TRUE,,,,,,svn,https://github.com/sparkfun/MAG3110_Breakout_Board,
-Triple Axis Magnetometer Breakout - MAG3110,Sparkfun,10619,$11.96,https://www.sparkfun.com/products/10619,TRUE,,,,,,svn,https://github.com/sparkfun/MAG3110_Breakout_Board,

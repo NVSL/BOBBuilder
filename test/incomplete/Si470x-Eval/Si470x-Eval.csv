@@ -1,2 +1,0 @@
-Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
-Si4703 FM Tuner Basic Breakout,Sparkfun,11083,$19.95,https://www.sparkfun.com/products/11083,,FALSE,FALSE,JP1,,,svn,https://github.com/sparkfun/Si4703_FM_Tuner_Evaluation_Board,Si4703_FM_Tuner_Evaluation_Board/trunk/Hardware/Si470x-Eval.brd

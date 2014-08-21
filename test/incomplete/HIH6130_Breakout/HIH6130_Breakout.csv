@@ -1,2 +1,0 @@
-Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
-Humidity and Temperature Sensor Breakout - HIH6130,Sparkfun,11295,$29.95,https://www.sparkfun.com/products/11295,TRUE,,,,,,svn,https://github.com/sparkfun/HIH6130_Breakout,

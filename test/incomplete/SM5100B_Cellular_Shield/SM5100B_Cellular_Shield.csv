@@ -1,2 +1,0 @@
-Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
-Cellular Shield with SM5100B,Sparkfun,9607,$99.95,https://www.sparkfun.com/products/9607,TRUE,,,,,,svn,https://github.com/sparkfun/SM5100B_Cellular_Shield,

@@ -1,2 +1,0 @@
-Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
-SN74HC165 Shift-In Breakout,Sparkfun,11733,$3.95,https://www.sparkfun.com/products/11733,TRUE,,,,,,svn,https://github.com/sparkfun/SN74HC165-Shift-In-Breakout,

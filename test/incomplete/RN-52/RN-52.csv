@@ -1,2 +1,0 @@
-Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
-RN-52,Sparkfun,,,,TRUE,,,,,,svn,https://github.com/sparkfun/RN-52,

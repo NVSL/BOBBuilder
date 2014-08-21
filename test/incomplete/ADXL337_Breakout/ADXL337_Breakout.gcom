@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<component>
-  <name>ADXL337_Breakout</name>
-  <QA tested="false" completed="false"/>
-  <keyname>ADXL337_Breakout</keyname>
-  <bobspec device-name="ADXL337_BREAKOUT">
-    <downloadURL protocol="svn">https://github.com/sparkfun/ADXL337_Breakout</downloadURL>
-  </bobspec>
-</component>

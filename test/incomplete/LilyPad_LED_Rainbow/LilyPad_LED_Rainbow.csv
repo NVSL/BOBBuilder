@@ -1,2 +1,0 @@
-Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
-LilyPad Rainbow LED Panel (5 strips of 7 colors),Sparkfun,11843,$24.95,https://www.sparkfun.com/products/11843,TRUE,,,,,,svn,https://github.com/sparkfun/LilyPad_LED_Rainbow,

@@ -1,7 +1,0 @@
-Name,Supplier,PartNumber,Price,DocURL,Skip,MirroredConnector,Backwards,Connectors,CopyComponents,PinMap,DownloadType,DownloadURL,Filename
-Graphic LCD Serial Backpack,Sparkfun,9352,$19.95,https://www.sparkfun.com/products/9352,TRUE,,,,,,svn,https://github.com/sparkfun/GraphicLCD_Serial_Backpack,
-Graphic LCD 160x128 Huge,Sparkfun,8799,$49.95,https://www.sparkfun.com/products/8799,TRUE,,,,,,svn,https://github.com/sparkfun/GraphicLCD_Serial_Backpack,
-Graphic LCD 128x64 STN LED Backlight,Sparkfun,710,$19.95,https://www.sparkfun.com/products/710,TRUE,,,,,,svn,https://github.com/sparkfun/GraphicLCD_Serial_Backpack,
-Graphic LCD Serial Backpack,Sparkfun,9352,$19.95,https://www.sparkfun.com/products/9352,TRUE,,,,,,svn,https://github.com/sparkfun/GraphicLCD_Serial_Backpack,
-Serial Graphic LCD 128x64,Sparkfun,9351,$36.95,https://www.sparkfun.com/products/9351,TRUE,,,,,,svn,https://github.com/sparkfun/GraphicLCD_Serial_Backpack,
-Serial Graphic LCD 160x128,Sparkfun,8884,$69.95,https://www.sparkfun.com/products/8884,TRUE,,,,,,svn,https://github.com/sparkfun/GraphicLCD_Serial_Backpack,
