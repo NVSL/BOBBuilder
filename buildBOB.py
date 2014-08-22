@@ -112,14 +112,15 @@ def buildPackage(args, board, lib, pinMapping):
     # Copy over the other the lines etc. that aren't attached to any part
     for t in ["wire", "rectangle", "circle", "text", "hole"]:
         for m in board.getPlain().findall(t):
-            if coord.isElementOnTop(m) or t is "hole" or m.get("layer") == "150":
-                ET.dump(m)
-                newPackage.append(coord.transformElement(m))
-                if t is "hole":
-                    newPackage.append(ET.SubElement(newPackage, "circle", {"layer":"150",
-                                                                           "x":m.get("x"),
-                                                                           "y":m.get("y"),
-                                                                           "radius":str(float(m.get("drill"))/2)}))
+            if m.get("layer") != "20":
+                if coord.isElementOnTop(m) or t is "hole" or m.get("layer") == "150":
+                    #                ET.dump(m)
+                    newPackage.append(coord.transformElement(m))
+                    if t is "hole":
+                        newPackage.append(ET.SubElement(newPackage, "circle", {"layer":"150",
+                                                                               "x":m.get("x"),
+                                                                               "y":m.get("y"),
+                                                                               "radius":str(float(m.get("drill"))/2)}))
                                                                            
     return EaglePackage(newPackage)
 
