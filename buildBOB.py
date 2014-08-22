@@ -25,7 +25,9 @@ def buildPackage(args, board, lib, pinMapping):
             lib.deletePackage(args.packagename[0]);
             newPackage = lib.newPackage(args.packagename[0]);
         else:
-            raise e
+            print e
+            print "Use --force to override.  Manual updates will be lost"
+            sys.exit(1)
 
     # set up coordinate system        
     coord = EagleCoordinateSystem()
@@ -263,7 +265,11 @@ if __name__ == "__main__":
     bspec = gcom.getroot().findall("bobspec");
     for bobspec in bspec:
         args.boardname = [bobspec.find("brdfile").text]
-        args.backwards = (bobspec.find("brdfile").get("upside-down").upper() == "TRUE")
+        if bobspec.find("brdfile").get("upside-down") is None or bobspec.find("brdfile").get("upside-down").upper() == "FALSE":
+            args.backwards = False
+        else:
+            args.backwards = True
+
         args.packagename = [bobspec.get("device-name")]
         args.description = [gcom.getroot().find("name").text]
         args.schematicFile = [bobspec.find("schfile").text]
@@ -278,8 +284,10 @@ if __name__ == "__main__":
         args.pinMap = [repr(pinmap)]
         print args.outlibname
         if args.outlibname is None:
-            args.outlibname = [os.getenv("EAGLE_LIBS") + "/" + "BOBs-autogen.lbr"]
-        print args.outlibname
+            args.outlibname = [os.getenv("EAGLE_LIBS") + "/" + "BOBs.lbr"]
+         
+        args.overwrite = args.force
+        #print args.outlibname
 
         ImportBOB(args)    
     
