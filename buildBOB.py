@@ -235,10 +235,9 @@ def ImportBOB(args):
         print "contiuning..."
 
     f = args.outlibname[0]
+#    ET.dump(lib.getRoot())
 # write it out.  Eagle has trouble reading xml with no newlines.  Run it through xmllint to make it pretty.
-    t = pipes.Template()
-    t.append("xmllint --format $IN", "f-")
-    lib.write(t.open(f, 'w'))
+    XMLUtil.formatAndWrite(lib.getET(), f)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Tool for auto-generating packages for breakout boards")
@@ -283,9 +282,9 @@ if __name__ == "__main__":
         for m in bobspec.findall("pinmap"):
             pinmap[m.get("schematic-pin")] = m.get("package-pin")
         args.pinMap = [repr(pinmap)]
-        print args.outlibname
         if args.outlibname is None:
             args.outlibname = [os.getenv("EAGLE_LIBS") + "/" + "BOBs.lbr"]
+        print args.outlibname
          
         args.overwrite = args.force
         #print args.outlibname
