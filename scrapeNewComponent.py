@@ -9,7 +9,7 @@ import time
 import StringIO
 import unicodedata
 import re
-import gcom
+#import gcom
 import datetime
 import XMLUtil
 import pyUtil
@@ -139,16 +139,16 @@ except ScrapeError as e:
         sys.exit(1)
 
 default="""
-<component>
+<variant>
   <name></name>
   <QA tested="false"/>
   <keyname></keyname>
   <variant>
+    <longname></longname>
     <supplier/>
     <documentationURL></documentationURL>
-    <longname></longname>
   </variant>
-</component>
+</variant>
 """
 
 et = ET.fromstring(default)
