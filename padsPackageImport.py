@@ -1,19 +1,11 @@
 #!/usr/bin/env python
 
-import XMLVisitor
 import argparse
-import simpletransform
 import math
-import StringIO
-from lxml import etree as ET
-import XMLUtil
-import sys
 import copy
 import re
-import math
 
 if __name__ == "__main__":
-
 
     parser = argparse.ArgumentParser(description="Tool to help import PADS decals in asc format.  It does lines and pads.  That's it.  You have to paste the result into an .lbr file by hand.")
     
