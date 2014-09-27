@@ -9,6 +9,8 @@ import time
 import StringIO
 import unicodedata
 import re
+from bs4 import BeautifulSoup
+import requests
 #import gcom
 import datetime
 import XMLUtil
@@ -56,58 +58,28 @@ def scrapeAdaFruit(productID):
                 "url" : url}
 
 def scrapeSparkFun(productID):
-    raise Exception("Spark fun is broken at the moment")
-
-    t = pipes.Template()
-    print "Scraping Sparkfun product "  + str(productID),
-    cmd = "curl --location https://www.sparkfun.com/products/"+ str(productID) + " 2>/dev/null"
-#    print cmd
-    t.prepend(cmd, ".-")
-    f = t.open("", "r")
-        
-    parser = etree.HTMLParser(recover=True)
-    tree = etree.parse(f, parser)
-#    for i in parser.error_log:
-#        print i
-
-#    tree = html.parse(f)
-
-    #tree.write(sys.stdout)
-    name = None
-    price = None
-    
-    if tree.getroot() is None:
-        raise ScrapeError("No root for Sparkfun " + str(productID))
-
-    for i in tree.getroot().iter(): 
-        if i.tag == "div" and i.get("class") == "description":
-            for j in i.findall("div[@class='hidden-sm hidden-xs']"):
-                for k in j.findall("div[@class='title']"):
-                    for l in k.findall("h1"):
-                        name = l.text.strip()
-        if i.tag == "div" and i.get("class") == "sale-wrap":
-#            print "1" + str(i.attrib)
-            for k in i.findall("h3"):
-                for l in k.findall("span"):
-                    price = l.text.strip()
-        if i.tag == "meta" and i.get("name") == "twitter:url":
-            pid = i.get("content").split("/")[-1]
-            if pid != productID:
-                productID = pid
-                print "Updated product ID: "  + pid
-
-    if name is None or price is None:
-        raise ScrapeError("Scrape failed for Sparkfun " + str(productID))
-    else:
-        if price[0] != "$":
-            price = "$" + price
-        print name + " " +  price
-        return [productID,name, price]
+    print "Scraping Sparkfun product " + productID
+    url = "https://www.sparkfun.com/products/" + productID
+    r=requests.get(url)
+    soup = BeautifulSoup(r.text)
+    name = soup.find(class_='description').find('h1').text.strip()
+    price = soup.find(class_='pricing').find(class_='sale-wrap').text.replace("$","").strip()
+    find_id = re.compile('-(\d+)\W')
+    check_id = find_id.search(soup.find(class_='sku').text).group(1)
+    if check_id != productID:
+        print "Product ID changed, {0} is now {1}".format(productID,check_id)
+        productID = check_id
+    return {"id":productID,
+            "name":name,
+            "price":price,
+            "url":url}
 
 
-parser = argparse.ArgumentParser(description="Tool for auto-generating packages for breakout boards.  Give it a product id and a vendor, and a keyname for the component, and it will, by default, create a direcotry for it and put the .gcom file there with some fields filled in.")
+parser = argparse.ArgumentParser(description="""Tool for auto-generating packages for breakout boards.
+    Give it a product id and a vendor, and a keyname for the component, and it will, by default, create a directory for it and put the .gcom file there with some fields filled in.
+    If there's a .brd and .sch file provided it'll attempt to get those too.""")
 parser.add_argument("-m", required=True, type=str, nargs=1, dest='manufacturer', help="manufacturer (currently adafruit or sparkfun)")
-parser.add_argument("--productid", required=False, type=str, nargs=1, dest='id', help="product id")
+parser.add_argument("--productid", required=True, type=str, nargs=1, dest='id', help="product id")
 parser.add_argument("--keyname", required=True, type=str, nargs=1, help="keyname for this component")
 parser.add_argument("-o", required=False, type=str, nargs=1, help="output file. default == keyname")
 
