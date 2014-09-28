@@ -90,6 +90,7 @@ parser.add_argument("-m", required=True, type=str, nargs=1, dest='manufacturer',
 parser.add_argument("--productid", required=True, type=str, nargs=1, dest='id', help="product id")
 parser.add_argument("--keyname", required=True, type=str, nargs=1, help="keyname for this component")
 parser.add_argument("-o", required=False, type=str, nargs=1, help="output file. default == keyname")
+parser.add_argument("--bob",action='store_true',help="This is a breakout board")
 
 args = parser.parse_args()
 
@@ -155,15 +156,29 @@ if args.o is not None:
 else:
     pyUtil.docmd("mkdir -p " + args.keyname[0])
     fname = args.keyname[0] + "/" + args.keyname[0] + ".gcom"
+
 if r["eagle_link"] is not None:
     out_dir = os.path.dirname(fname)
     print "Downloading Eagle .brd and .sch zip file to ext folder..."
     ext_folder = out_dir + "/ext"
     pyUtil.docmd("mkdir " + ext_folder)
     pyUtil.docmd("curl -s {0} > {1}/eagle.zip".format(r["eagle_link"],ext_folder))
+    if args.bob:
+        et.insert(3,ET.Element('bobspec'))
+        bobspec = et.find('bobspec')
+        download = ET.SubElement(bobspec,'downloadURL')
+        download.attrib['protocol'] = 'zip'     #Nothing other than zip at the moment
+        download.text = r['eagle_link']
+        brd = ET.SubElement(bobspec,'brdfile')
+        sch = ET.SubElement(bobspec,'schfile')
     try:
         pyUtil.docmd("unzip {0}/eagle.zip -d {1}".format(ext_folder,ext_folder))
         pyUtil.docmd("rm {0}/eagle.zip".format(ext_folder))
+        for f in os.walk(ext_folder).next()[2]:
+            if f.endswith('.brd'):
+                brd.text = 'ext/' + f
+            if f.endswith('.sch'):
+                sch.text = 'ext/' + f
     except OSError as e:
         print str(e)
         print "Couldn't unzip Eagle stuff"
