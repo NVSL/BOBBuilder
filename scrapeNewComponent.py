@@ -15,6 +15,7 @@ import requests
 import datetime
 import XMLUtil
 import pyUtil
+import os
 
 from lxml import html
 from lxml import etree
@@ -62,17 +63,24 @@ def scrapeSparkFun(productID):
     url = "https://www.sparkfun.com/products/" + productID
     r=requests.get(url)
     soup = BeautifulSoup(r.text)
-    name = soup.find(class_='description').find('h1').text.strip()
+    name = soup.find(class_='description')
+    if name is None:
+        raise ScrapeError("Scrape failed")
+    name = name.find('h1').text.strip()
     price = soup.find(class_='pricing').find(class_='sale-wrap').text.replace("$","").strip()
     find_id = re.compile('-(\d+)\W')
     check_id = find_id.search(soup.find(class_='sku').text).group(1)
     if check_id != productID:
         print "Product ID changed, {0} is now {1}".format(productID,check_id)
         productID = check_id
+    eagle_link = soup.find( name='a', href=re.compile('.*\.zip$',flags=re.IGNORECASE), text=re.compile('eagle',flags=re.IGNORECASE) )
+    if eagle_link:
+        eagle_link = eagle_link["href"]
     return {"id":productID,
             "name":name,
             "price":price,
-            "url":url}
+            "url":url,
+            "eagle_link":eagle_link}
 
 
 parser = argparse.ArgumentParser(description="""Tool for auto-generating packages for breakout boards.
@@ -147,5 +155,18 @@ if args.o is not None:
 else:
     pyUtil.docmd("mkdir -p " + args.keyname[0])
     fname = args.keyname[0] + "/" + args.keyname[0] + ".gcom"
+if r["eagle_link"] is not None:
+    out_dir = os.path.dirname(fname)
+    print "Downloading Eagle .brd and .sch zip file to ext folder..."
+    ext_folder = out_dir + "/ext"
+    pyUtil.docmd("mkdir " + ext_folder)
+    pyUtil.docmd("curl -s {0} > {1}/eagle.zip".format(r["eagle_link"],ext_folder))
+    try:
+        pyUtil.docmd("unzip {0}/eagle.zip -d {1}".format(ext_folder,ext_folder))
+        pyUtil.docmd("rm {0}/eagle.zip".format(ext_folder))
+    except OSError as e:
+        print str(e)
+        print "Couldn't unzip Eagle stuff"
+
 
 XMLUtil.formatAndWrite(e,fname, xml_declaration=True)
