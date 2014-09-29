@@ -20,7 +20,6 @@ import os
 from lxml import html
 from lxml import etree
 
-
 class ScrapeError(Exception):
     def __init__(self, s):
         self.s = s
@@ -82,7 +81,7 @@ def scrapeSparkFun(productID):
             "url":url,
             "eagle_link":eagle_link}
 
-
+#TODO: Get rid of most of this stuff and just take the product URL instead?
 parser = argparse.ArgumentParser(description="""Tool for auto-generating packages for breakout boards.
     Give it a product id and a vendor, and a keyname for the component, and it will, by default, create a directory for it and put the .gcom file there with some fields filled in.
     If there's a .brd and .sch file provided it'll attempt to get those too.""")
@@ -164,24 +163,25 @@ if r["eagle_link"] is not None:
     pyUtil.docmd("mkdir " + ext_folder)
     pyUtil.docmd("curl -s {0} > {1}/eagle.zip".format(r["eagle_link"],ext_folder))
     if args.bob:
-        et.insert(3,ET.Element('bobspec'))
+        et.insert(3,ET.Element('bobspec'))      #Inserts after <keyname>, wasn't sure how to just say 'insert after keyname'
         bobspec = et.find('bobspec')
+        bobspec.attrib['device-name'] = args.keyname[0]
         download = ET.SubElement(bobspec,'downloadURL')
         download.attrib['protocol'] = 'zip'     #Nothing other than zip at the moment
         download.text = r['eagle_link']
         brd = ET.SubElement(bobspec,'brdfile')
         sch = ET.SubElement(bobspec,'schfile')
-    try:
-        pyUtil.docmd("unzip {0}/eagle.zip -d {1}".format(ext_folder,ext_folder))
-        pyUtil.docmd("rm {0}/eagle.zip".format(ext_folder))
-        for f in os.walk(ext_folder).next()[2]:
-            if f.endswith('.brd'):
-                brd.text = 'ext/' + f
-            if f.endswith('.sch'):
-                sch.text = 'ext/' + f
-    except OSError as e:
-        print str(e)
-        print "Couldn't unzip Eagle stuff"
+        try:
+            pyUtil.docmd("unzip {0}/eagle.zip -d {1}".format(ext_folder,ext_folder))
+            pyUtil.docmd("rm {0}/eagle.zip".format(ext_folder))
+            for f in os.walk(ext_folder).next()[2]:
+                if f.endswith('.brd'):
+                    brd.text = 'ext/' + f
+                if f.endswith('.sch'):
+                    sch.text = 'ext/' + f
+        except OSError as e:
+            print str(e)
+            print "Couldn't unzip Eagle stuff"
 
 
 XMLUtil.formatAndWrite(e,fname, xml_declaration=True)
