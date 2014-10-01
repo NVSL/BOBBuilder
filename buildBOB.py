@@ -3,6 +3,7 @@
 import argparse
 from lxml import etree as ET;
 import sys
+
 from EagleLibrary import *
 from EagleBoard import *
 from EagleCoordinateSystem import *
@@ -186,9 +187,9 @@ def ImportBOB(args):
     # open library and board
 
     schematic = EagleSchematic(args.boardsDirectory[0] + "/" + args.schematicFile[0])
-    board = EagleBoard(args.boardsDirectory[0] + "/" + args.boardname[0])
+    board = EagleBoard.EagleBoard(args.boardsDirectory[0] + "/" + args.boardname[0])
     print args.outlibname[0]
-    lib = EagleLibrary(args.outlibname[0])
+    lib = EagleLibrary.EagleLibrary(args.outlibname[0])
 
     def uniquify(m):
         count = {}
@@ -239,7 +240,9 @@ def ImportBOB(args):
 # write it out.  Eagle has trouble reading xml with no newlines.  Run it through xmllint to make it pretty.
     XMLUtil.formatAndWrite(lib.getET(), f)
 
+
 if __name__ == "__main__":
+    #TODO: Remove useless arguments and stop passing the entire args object around
     parser = argparse.ArgumentParser(description="Tool for auto-generating packages for breakout boards")
 
     parser.add_argument("--library", required=False,  type=str, nargs=1, dest='outlibname', default=None, help="target library file")
@@ -262,15 +265,18 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     gcom = ET.parse(args.gcom[0])
-    bspec = gcom.getroot().findall("bobspec");
+    bspec = gcom.getroot().findall("bobspec")
+    if len(bspec)==0:
+        sys.exit("gcom file is missing the bobspec section")
     for bobspec in bspec:
         args.boardname = [bobspec.find("brdfile").text]
         if bobspec.find("brdfile").get("upside-down") is None or bobspec.find("brdfile").get("upside-down").upper() == "FALSE":
             args.backwards = False
         else:
             args.backwards = True
-
         args.packagename = [bobspec.get("device-name")]
+        if args.packagename[0] is None:
+            sys.exit("Missing device-name attribute in bobspec")
         args.description = [gcom.getroot().find("name").text]
         args.schematicFile = [bobspec.find("schfile").text]
         args.headers = [ j.get("name") for j in bobspec.findall("connector")]
