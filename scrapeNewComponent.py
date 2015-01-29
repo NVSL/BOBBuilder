@@ -62,7 +62,7 @@ def scrapeSparkFun(productID):
     url = "https://www.sparkfun.com/products/" + productID
     r=requests.get(url)
     soup = BeautifulSoup(r.text)
-    name = soup.find(class_='description')
+    name = soup.find(class_='product-title')
     if name is None:
         raise ScrapeError("Scrape failed")
     name = name.find('h1').text.strip()
