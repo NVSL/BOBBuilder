@@ -280,6 +280,8 @@ if __name__ == "__main__":
         args.description = [gcom.getroot().find("name").text]
         args.schematicFile = [bobspec.find("schfile").text]
         args.headers = [ j.get("name") for j in bobspec.findall("connector")]
+        if len(args.headers)==0:
+            sys.stderr.write("Warning: you haven't defined a connector in <bobspec>, nothing is going to be connected\n")
         if args.gcom[0][0] != "/" and args.gcom[0][0] != ".":
             args.gcom[0] = "./"+ args.gcom[0]
         args.boardsDirectory = ["/".join(args.gcom[0].split("/")[0:-1])]
