@@ -156,7 +156,7 @@ else:
     pyUtil.docmd("mkdir -p " + args.keyname[0])
     fname = args.keyname[0] + "/" + args.keyname[0] + ".gcom"
 
-if r["eagle_link"] is not None:
+if "eagle_link" in r:
     out_dir = os.path.dirname(fname)
     print "Downloading Eagle .brd and .sch zip file to ext folder..."
     ext_folder = out_dir + "/ext"
