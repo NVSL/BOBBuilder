@@ -4,15 +4,15 @@ import argparse
 from lxml import etree as ET;
 import sys
 
-from EagleLibrary import *
-from EagleBoard import *
-from EagleCoordinateSystem import *
-from EagleSymbol import *
-from EagleDevice import *
-from EagleDeviceSet import *
-from EaglePackage import *
-from EagleSchematic import *
-from EagleLayers import *
+from EagleUtil.EagleLibrary import *
+from EagleUtil.EagleBoard import *
+from EagleUtil.EagleCoordinateSystem import *
+from EagleUtil.EagleSymbol import *
+from EagleUtil.EagleDevice import *
+from EagleUtil.EagleDeviceSet import *
+from EagleUtil.EaglePackage import *
+from EagleUtil.EagleSchematic import *
+from EagleUtil.EagleLayers import *
 import pipes
 import os
 
@@ -241,7 +241,7 @@ def ImportBOB(args):
     XMLUtil.formatAndWrite(lib.getET(), f)
 
 
-if __name__ == "__main__":
+def main():
     #TODO: Remove useless arguments and stop passing the entire args object around
     parser = argparse.ArgumentParser(description="Tool for auto-generating packages for breakout boards")
 
