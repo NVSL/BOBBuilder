@@ -37,12 +37,12 @@ setup(name='BOBBuilder',
       test_suite="Test",
       packages = ["BOBBuilder"],
       package_dir={
-          'BOBBuilder' : 'BOBBuilder',
+'BOBBuilder' : 'BOBBuilder',
       },
       package_data={
           "" : ["*.rst"],
       },
-      install_requires=["EagleUtil"],
+      #install_requires=["EagleUtil"],
       entry_points={
           'console_scripts': [
             'buildBOB = BOBBuilder.buildBOB:main',
