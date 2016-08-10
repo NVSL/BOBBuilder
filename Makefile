@@ -2,7 +2,7 @@ default: build
 
 .PHONY: build
 build:
-	python ./setup.py build develop;
+	pip install -e .
 
 test:
 	true
