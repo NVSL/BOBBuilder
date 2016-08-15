@@ -1,11 +1,6 @@
-default: build
+include ../Gadgetron/dev.make
 
-.PHONY: build
-build:
-	pip install -e .
-
+.PHONY: test
 test:
-	true
+	python dummy_sch/dummy_sch.py
 
-clean:
-	true
