@@ -4,3 +4,5 @@ include ../Gadgetron/dev.make
 test:
 	python dummy_sch/dummy_sch.py
 
+clean:
+	true
