@@ -42,7 +42,7 @@ setup(name='BOBBuilder',
       package_data={
           "" : ["*.rst"],
       },
-      install_requires=["lxml"], #EagleUtil
+      install_requires=["lxml=3.6.2"], #EagleUtil
       entry_points={
           'console_scripts': [
             'buildBOB = BOBBuilder.buildBOB:main',
