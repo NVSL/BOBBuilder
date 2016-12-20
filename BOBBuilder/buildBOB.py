@@ -243,10 +243,10 @@ def ImportBOB(args):
 
 def main():
     #TODO: Remove useless arguments and stop passing the entire args object around
-    parser = argparse.ArgumentParser(description="Tool for auto-generating packages for breakout boards")
+    parser = argparse.ArgumentParser(description="Tool for auto-generating packages for breakout boars")
 
     parser.add_argument("--library", required=False,  type=str, nargs=1, dest='outlibname', default=None, help="target library file")
-    parser.add_argument("--gcom", required=True,  type=str, nargs=1, dest='gcom', help="Component description file")
+    parser.add_argument("--gcom", type=str, nargs=1, dest='gcom', help="Component description file")
     parser.add_argument("--force", action="store_true", help="Replace current device, schematic, and package")
 
     parser.add_argument("--board", required=False,  type=str, nargs=1, dest='boardname', help="board to import relative to BoardsDirecotry")
@@ -263,41 +263,45 @@ def main():
     parser.add_argument("--pinmap", required=False,  type=str, nargs=1, dest='pinMap', help="Schematic pin remapping")
 
     args = parser.parse_args()
+    args.overwrite = args.force
 
-    gcom = ET.parse(args.gcom[0])
-    bspec = gcom.getroot().findall("bobspec")
-    if len(bspec)==0:
-        sys.exit("gcom file is missing the bobspec section")
-    for bobspec in bspec:
-        args.boardname = [bobspec.find("brdfile").text]
-        if bobspec.find("brdfile").get("upside-down") is None or bobspec.find("brdfile").get("upside-down").upper() == "FALSE":
-            args.backwards = False
-        else:
-            args.backwards = True
-        args.packagename = [bobspec.get("device-name")]
-        if args.packagename[0] is None:
-            sys.exit("Missing device-name attribute in bobspec")
-        args.description = [gcom.getroot().find("name").text]
-        args.schematicFile = [bobspec.find("schfile").text]
-        args.headers = [ j.get("name") for j in bobspec.findall("connector")]
-        if len(args.headers)==0:
-            sys.stderr.write("Warning: you haven't defined a connector in <bobspec>, nothing is going to be connected\n")
-        if args.gcom[0][0] != "/" and args.gcom[0][0] != ".":
-            args.gcom[0] = "./"+ args.gcom[0]
-        args.boardsDirectory = ["/".join(args.gcom[0].split("/")[0:-1])]
+    if args.gcom is not None:
+        gcom = ET.parse(args.gcom[0])
+        bspec = gcom.getroot().findall("bobspec")
+        if len(bspec)==0:
+            sys.exit("gcom file is missing the bobspec section")
+        for bobspec in bspec:
+            args.boardname = [bobspec.find("brdfile").text]
+            if bobspec.find("brdfile").get("upside-down") is None or bobspec.find("brdfile").get("upside-down").upper() == "FALSE":
+                args.backwards = False
+            else:
+                args.backwards = True
+            args.packagename = [bobspec.get("device-name")]
+            if args.packagename[0] is None:
+                sys.exit("Missing device-name attribute in bobspec")
+            args.description = [gcom.getroot().find("name").text]
+            args.schematicFile = [bobspec.find("schfile").text]
+            args.headers = [ j.get("name") for j in bobspec.findall("connector")]
+            if len(args.headers)==0:
+                sys.stderr.write("Warning: you haven't defined a connector in <bobspec>, nothing is going to be connected\n")
+            if args.gcom[0][0] != "/" and args.gcom[0][0] != ".":
+                args.gcom[0] = "./"+ args.gcom[0]
+            args.boardsDirectory = ["/".join(args.gcom[0].split("/")[0:-1])]
+            print args.boardsDirectory
+            pinmap = {}
+            for m in bobspec.findall("pinmap"):
+                pinmap[m.get("schematic-pin")] = m.get("package-pin")
+            args.pinMap = [repr(pinmap)]
+            if args.outlibname is None:
+                args.outlibname = [os.getenv("EAGLE_LIBS") + "/" + "BOBs.lbr"]
+            print args.outlibname
+
+            #print args.outlibname
+
+            ImportBOB(args)
+    else:
         print args.boardsDirectory
-        pinmap = {}
-        for m in bobspec.findall("pinmap"):
-            pinmap[m.get("schematic-pin")] = m.get("package-pin")
-        args.pinMap = [repr(pinmap)]
-        if args.outlibname is None:
-            args.outlibname = [os.getenv("EAGLE_LIBS") + "/" + "BOBs.lbr"]
-        print args.outlibname
-         
-        args.overwrite = args.force
-        #print args.outlibname
-
-        ImportBOB(args)    
-    
+        ImportBOB(args)
+        
 if __name__ == "__main__":
     main()
